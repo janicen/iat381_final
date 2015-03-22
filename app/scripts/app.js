@@ -14,7 +14,8 @@ angular
     'ngMessages',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch', 
+    'flow'
   ])
   .config(function ($routeProvider) {
     $routeProvider
