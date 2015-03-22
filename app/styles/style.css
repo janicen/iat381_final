@@ -36,7 +36,7 @@ li {
 }
 
 	li img {
-		width: 44px;
+		width: 32px;
   		height: auto;
 	}
 
@@ -55,8 +55,13 @@ li {
 }
 
 	.navbar-nav > li {
-  		float: none;
+		float: none;
   		display: inline-block;
+	}
+
+	.test {
+		padding-top: .2em;
+		color: #FFFFFF;
 	}
 
 /* Links */
@@ -73,7 +78,7 @@ li {
 }
 
 .content {
-	margin-top: 6em;
+	margin-top: 8em;
 }
 
 .btn {
@@ -94,6 +99,7 @@ li {
 
 .title {
 	text-align: center;
+	padding: .25em 0;
 }
 
 .groups {
@@ -145,6 +151,7 @@ li {
 	textarea {
 		width: 300px;
 		margin-bottom: 2em;
+		color: black;
 	}
 
 /* ================================================================ 
