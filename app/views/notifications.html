@@ -1,0 +1,23 @@
+Header Start -->
+<nav class="navbar navbar-default navbar-fixed-top custom-navbar-top">
+      
+	<div class="navbar-header col-sm-12">
+		<h1>Notifications</h1>
+	</div>
+        
+</nav>
+<!-- Header End -->
+
+<!-- Content Start -->
+<div class="content">
+
+	<div ng-controller="NotificationsCtrl" class="people">
+		<ul>
+    		<li ng-repeat="notification in notifications">
+      			<p>{{notification.name}} : {{notification.snippet}}</p>
+    		</li>
+  		</ul>
+	</div>
+
+</div>
+<!-- Content End -->
