@@ -143,6 +143,12 @@ li {
 	text-align: center;
 }
 
+	.thing {
+		width: 300px;
+		height: 300px;
+		border: dashed 2px #CCCCCC;
+	}
+
 .comment {
 	text-align: center;
 	margin-top: 3em;
