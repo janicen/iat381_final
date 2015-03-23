@@ -40,6 +40,10 @@ li {
   		height: auto;
 	}
 
+	.images {
+		margin: 0 .5em;
+	}
+
 .navbar-header {
 	text-align: center;
 	background-color: #F15A24;
@@ -59,10 +63,20 @@ li {
   		display: inline-block;
 	}
 
-	.test {
+	.tabtxt {
 		padding-top: .2em;
 		color: #FFFFFF;
 	}
+
+.content {
+	margin: 8em 0;
+}
+
+.btn {
+	color: #FFFFFF;
+	background-color: #F15A24;
+	border: none;
+}
 
 /* Links */
 
@@ -77,14 +91,8 @@ li {
   background-color: #F15A24;
 }
 
-.content {
-	margin-top: 8em;
-}
-
-.btn {
-	color: #FFFFFF;
-	background-color: #F15A24;
-	border: none;
+a:hover {
+	opacity: .5;
 }
 
 /* ================================================================ 
@@ -106,10 +114,6 @@ li {
 	text-align: center;
 	margin-top: 2em;
 }
-
-	.images {
-		margin: 0 .5em;
-	}
 
 /* ================================================================ 
   MAIN PAGE END
@@ -140,8 +144,33 @@ li {
 		height: auto;
 	}
 
+.imgbtn img {
+	width: 44px;
+	height: auto;
+}
+
 /* ================================================================ 
-  GROUPS PAGE START 
+  GROUPS PAGE END 
+================================================================  */
+
+
+
+/* ================================================================ 
+  TRADES PAGE START 
+================================================================  */
+
+.trade {
+	text-align: center;
+	padding-top: 8em;
+}
+
+.tradebtn {
+	margin-top: 5em;
+	text-align: center;
+}
+
+/* ================================================================ 
+  TRADES PAGE START 
 ================================================================  */
 
 
@@ -160,6 +189,25 @@ li {
 
 /* ================================================================ 
   BOOKMARKS PAGE END
+================================================================  */
+
+
+
+/* ================================================================ 
+  CHEFS PAGE START 
+================================================================  */
+
+.chefs {
+	text-align: center;
+	margin-top: 2em;
+}
+
+	.chefs img {
+		margin: 0 2em;
+	}
+
+/* ================================================================ 
+  CHEFS PAGE END
 ================================================================  */
 
 

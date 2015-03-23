@@ -19,7 +19,7 @@
       <div flow-init="{target: '/upload'}" flow-files-submitted="$flow.upload()" flow-file-success="$file.msg = $message">
 
         <input type="file" flow-btn/>
-        <span class="btn" flow-btn>Upload</span>
+        <span class="btn btn-default" flow-btn>upload</span>
 
         <table>
           <tr ng-repeat="file in $flow.files">
@@ -40,7 +40,7 @@
 		<form ng-controller="PostCtrl">
           	<form ng-controller="PostCtrl">
              	<textarea ng-model="txtcomment" placeholder="Comment here"></textarea>
-                <p><button ng-click="buttonAdd();" class="btn">post</button></p>
+                <p><button ng-click="buttonAdd();" class="btn btn-default">post</button></p>
             </form> 
 
 	</div>
