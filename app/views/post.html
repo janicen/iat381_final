@@ -14,23 +14,24 @@
 	<div class="picture">
 
 		<div class="thing">
-		<!-- Flow.JS: http://flowjs.github.io/ng-flow/ -->
-		<div flow-init="{target: '/upload'}" flow-files-submitted="$flow.upload()" flow-file-success="$file.msg = $message">
 
-  			<div class="wrapper">
-  			<input type="file" flow-btn/>
-  			<span class="btn" flow-btn>Upload</span>
-  		</div>
+  		<!-- Flow.JS Start: http://flowjs.github.io/ng-flow/ -->
+      <div flow-init="{target: '/upload'}" flow-files-submitted="$flow.upload()" flow-file-success="$file.msg = $message">
 
-  			<table>
-    			<tr ng-repeat="file in $flow.files">
-        			<td>{{$index+1}}</td>
-        			<td>{{file.name}}</td>
-        			<td>{{file.msg}}</td>
-    			</tr>
-  			</table>
-		</div>
-		</div>
+        <input type="file" flow-btn/>
+        <span class="btn" flow-btn>Upload</span>
+
+        <table>
+          <tr ng-repeat="file in $flow.files">
+            <td>{{$index+1}}</td>
+            <td>{{file.name}}</td>
+            <td>{{file.msg}}</td>
+          </tr>
+        </table>
+      </div>
+      <!-- Flow.JS End -->
+
+    </div>
 
 	</div>
 

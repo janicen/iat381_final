@@ -23,9 +23,21 @@ angular
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
+      .when('/group', {
+        templateUrl: 'views/group.html',
+        controller: 'GroupCtrl'
+      })
+      .when('/trades', {
+        templateUrl: 'views/trades.html',
+        controller: 'TradesCtrl'
+      })
       .when('/bookmarks', {
         templateUrl: 'views/bookmarks.html',
         controller: 'BookmarksCtrl'
+      })
+      .when('/chefs', {
+        templateUrl: 'views/chefs.html',
+        controller: 'ChefsCtrl'
       })
       .when('/post', {
         templateUrl: 'views/post.html',
