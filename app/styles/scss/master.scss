@@ -1,0 +1,108 @@
+/* ================================================================ 
+  BASE STYLE
+================================================================  */
+
+html, body {
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+
+html, body, ul, ol, li, form, fieldset, legend,
+h1, h2, h3, h4, h5, h6, p {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+	h1 {
+		font-size: 2.2em;
+		padding: .5em 0;
+	}
+
+	h2 {
+		font-size: 2em;
+		color: #F15A24;
+	}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+li {
+  	list-style: none;
+  	display: inline-block;
+
+  	img {
+		width: 32px;
+  		height: auto;
+	}
+}
+
+.images {
+	margin: 0 .5em;
+}
+
+.navbar-header {
+	text-align: center;
+	background-color: #F15A24;
+}
+
+.navbar {
+  background-color: #CCCCCC;
+}
+
+.navbar-nav {
+  width: 100%;
+  text-align: center;
+
+  	> li {
+		float: none;
+  		display: inline-block;
+	}
+}
+	.tabtxt {
+		padding-top: .2em;
+		color: #FFFFFF;
+	}
+
+.content {
+	margin: 8em 0;
+}
+
+.btn {
+	color: #FFFFFF;
+	background-color: #F15A24;
+	border: none;
+}
+
+/* 
+ *
+ * Links
+ *
+ */
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  background-color: #7C7C7C;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: #F15A24;
+}
+
+a:hover {
+	opacity: .5;
+}
+
+
+
+
+
+
+
+
+
