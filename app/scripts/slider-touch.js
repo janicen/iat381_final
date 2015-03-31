@@ -1,4 +1,6 @@
-﻿(function($) {
+﻿'use strict';
+
+(function($) {
     var PagesSliderTouch = function (slider, options) {
         this.options = $.extend({
             endDuration: 300
@@ -109,9 +111,3 @@
         return this;
     };
 })(jQuery);
-
-            // $(function() {
-            //     console.log($('.slider.touch'));
-            //     $('.slider.touch').pagesSliderTouch();
-            //     $('.slider.not-touch').pagesSlider();
-            // });
