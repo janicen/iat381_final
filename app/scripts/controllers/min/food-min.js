@@ -1,1 +1,1 @@
-"use strict";angular.module("myappApp").controller("FoodCtrl",function(o){o.awesomeThings=[]});
+"use strict";angular.module("myappApp").controller("FoodCtrl",function(e){e.awesomeThings=[],jQuery(function(){jQuery(".slider.touch").pagesSliderTouch(),jQuery(".slider").pagesSlider()})});
