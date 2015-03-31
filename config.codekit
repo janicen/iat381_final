@@ -55,6 +55,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/app\/img\/button_post.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5352,
+		"inputAbbreviatedPath": "\/app\/img\/button_post.png",
+		"outputAbbreviatedPath": "\/app\/img\/button_post.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/app\/img\/button_trade.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -62,6 +73,17 @@
 		"initialSize": 4201,
 		"inputAbbreviatedPath": "\/app\/img\/button_trade.png",
 		"outputAbbreviatedPath": "\/app\/img\/button_trade.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/icon_back.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 978,
+		"inputAbbreviatedPath": "\/app\/img\/icon_back.png",
+		"outputAbbreviatedPath": "\/app\/img\/icon_back.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -121,6 +143,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/app\/img\/icon_ratingactive.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2374,
+		"inputAbbreviatedPath": "\/app\/img\/icon_ratingactive.png",
+		"outputAbbreviatedPath": "\/app\/img\/icon_ratingactive.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/icon_ratingdeactive.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3415,
+		"inputAbbreviatedPath": "\/app\/img\/icon_ratingdeactive.png",
+		"outputAbbreviatedPath": "\/app\/img\/icon_ratingdeactive.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/app\/img\/tradearrows.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -174,23 +218,23 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/app\/scripts\/controllers\/chefs.js": {
+	"\/app\/scripts\/controllers\/chats.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/app\/scripts\/controllers\/chefs.js",
-		"outputAbbreviatedPath": "\/app\/scripts\/controllers\/min\/chefs-min.js",
+		"inputAbbreviatedPath": "\/app\/scripts\/controllers\/chats.js",
+		"outputAbbreviatedPath": "\/app\/scripts\/controllers\/min\/chats-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/app\/scripts\/controllers\/group.js": {
+	"\/app\/scripts\/controllers\/food.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/app\/scripts\/controllers\/group.js",
-		"outputAbbreviatedPath": "\/app\/scripts\/controllers\/min\/group-min.js",
+		"inputAbbreviatedPath": "\/app\/scripts\/controllers\/food.js",
+		"outputAbbreviatedPath": "\/app\/scripts\/controllers\/min\/food-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -202,6 +246,28 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/app\/scripts\/controllers\/main.js",
 		"outputAbbreviatedPath": "\/app\/scripts\/controllers\/min\/main-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/app\/scripts\/controllers\/min\/chats-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/scripts\/controllers\/min\/chats-min.js",
+		"outputAbbreviatedPath": "\/app\/scripts\/controllers\/min\/min\/chats-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/app\/scripts\/controllers\/min\/food-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/scripts\/controllers\/min\/food-min.js",
+		"outputAbbreviatedPath": "\/app\/scripts\/controllers\/min\/min\/food-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -229,23 +295,12 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/app\/scripts\/controllers\/profile.js": {
+	"\/app\/scripts\/min\/app-min.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/app\/scripts\/controllers\/profile.js",
-		"outputAbbreviatedPath": "\/app\/scripts\/controllers\/min\/profile-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/app\/scripts\/controllers\/trades.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/app\/scripts\/controllers\/trades.js",
-		"outputAbbreviatedPath": "\/app\/scripts\/controllers\/min\/trades-min.js",
+		"inputAbbreviatedPath": "\/app\/scripts\/min\/app-min.js",
+		"outputAbbreviatedPath": "\/app\/scripts\/min\/min\/app-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -285,15 +340,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/app\/styles\/scss\/chefs.scss": {
+	"\/app\/styles\/scss\/chats.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/app\/styles\/scss\/chefs.scss",
-		"outputAbbreviatedPath": "\/app\/styles\/css\/chefs.css",
+		"inputAbbreviatedPath": "\/app\/styles\/scss\/chats.scss",
+		"outputAbbreviatedPath": "\/app\/styles\/css\/chats.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -301,15 +356,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/app\/styles\/scss\/group.scss": {
+	"\/app\/styles\/scss\/food.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/app\/styles\/scss\/group.scss",
-		"outputAbbreviatedPath": "\/app\/styles\/css\/group.css",
+		"inputAbbreviatedPath": "\/app\/styles\/scss\/food.scss",
+		"outputAbbreviatedPath": "\/app\/styles\/css\/food.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -397,22 +452,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/app\/styles\/scss\/trades.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/app\/styles\/scss\/trades.scss",
-		"outputAbbreviatedPath": "\/app\/styles\/css\/trades.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
 	"\/app\/views\/bookmarks.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -422,20 +461,20 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/app\/views\/chefs.html": {
+	"\/app\/views\/chats.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/app\/views\/chefs.html",
+		"inputAbbreviatedPath": "\/app\/views\/chats.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/app\/views\/group.html": {
+	"\/app\/views\/food.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/app\/views\/group.html",
+		"inputAbbreviatedPath": "\/app\/views\/food.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -463,24 +502,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/app\/views\/post.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/app\/views\/profile.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/app\/views\/profile.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/app\/views\/trades.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/app\/views\/trades.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2646,6 +2667,89 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/bower_components\/hammer.js\/CHANGELOG.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/hammer.js\/CHANGELOG.md",
+		"outputAbbreviatedPath": "\/bower_components\/hammer.js\/CHANGELOG.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/hammer.js\/CONTRIBUTING.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/hammer.js\/CONTRIBUTING.md",
+		"outputAbbreviatedPath": "\/bower_components\/hammer.js\/CONTRIBUTING.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/hammer.js\/Gruntfile.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/hammer.js\/Gruntfile.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/bower_components\/hammer.js\/Gruntfile.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/hammer.js\/hammer.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/hammer.js\/hammer.js",
+		"outputAbbreviatedPath": "\/bower_components\/hammer.js\/min\/hammer-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/hammer.js\/hammer.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/hammer.js\/hammer.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/hammer.js\/min\/hammer.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/hammer.js\/LICENSE.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/hammer.js\/LICENSE.md",
+		"outputAbbreviatedPath": "\/bower_components\/hammer.js\/LICENSE.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/hammer.js\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/hammer.js\/README.md",
+		"outputAbbreviatedPath": "\/bower_components\/hammer.js\/README.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/bower_components\/jquery\/dist\/jquery.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -3829,7 +3933,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Yee Loong Ooi",
+"lastSavedByUser": "Janice Ng",
 "manualImportLinks": {
 	},
 "projectAttributes": {

@@ -16,22 +16,7 @@
 
 <body ng-app="myappApp">
 
-    <div class="container">
-
-    <!-- Navbar Start -->
-    <nav class="navbar navbar-default navbar-fixed-bottom custom-navbar-bottom" role="navigation">
-        <ul class="nav navbar-nav col-xs-2">
-            <li class="active"><a ng-href="#/main"><img alt="dishes" ng-src="img/icon_dishes.png"><p class="tabtxt">Dishes</p></a></li>
-            <li><a ng-href="#/bookmarks"><img alt="bookmarks" ng-src="img/icon_bookmarks.png"><p class="tabtxt">Bookmarks</p></a></li>
-            <li><a ng-href="#/post"><img alt="post" ng-src="img/icon_post.png"><p class="tabtxt">Post</p></a></li>
-            <li><a ng-href="#/notifications"><img alt="notifications" ng-src="img/icon_notifications.png"><p class="tabtxt">Notifications</p></a></li>
-            <li><a ng-href="#/profile"><img alt="profile" ng-src="img/icon_profile.png"><p class="tabtxt">Profile</p></a></li>
-      </ul>
-    </nav><!-- Navbar End -->
-
     <div ng-view=""></div>
-
-    </div>
 
     <!-- bower:js -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
@@ -44,18 +29,17 @@
     <script src="bower_components/angular-touch/angular-touch.js"></script>
     <script src="bower_components/flow.js/dist/flow.js"></script>
     <script src="bower_components/ng-flow/dist/ng-flow.js"></script>
+    <script src="bower_components/hammer.js/hammer.js"></script>
 
 
     <!-- screens -->
     <script src="scripts/app.js"></script>
     <script src="scripts/controllers/main.js"></script>
-    <script src="scripts/controllers/group.js"></script>
-    <script src="scripts/controllers/trades.js"></script>
-    <script src="scripts/controllers/bookmarks.js"></script>
-    <script src="scripts/controllers/chefs.js"></script>
-    <script src="scripts/controllers/post.js"></script>
+    <script src="scripts/controllers/food.js"></script>
+    <script src="scripts/controllers/chats.js"></script>
     <script src="scripts/controllers/notifications.js"></script>
-    <script src="scripts/controllers/profile.js"></script>
+    <script src="scripts/controllers/bookmarks.js"></script>
+    <script src="scripts/controllers/post.js"></script>
 
 </body>
 </html>

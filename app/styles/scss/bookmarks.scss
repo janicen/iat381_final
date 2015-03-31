@@ -2,10 +2,16 @@
   BOOKMARKS PAGE START 
 ================================================================  */
 
-.tabs {
-	text-align: center;
-}
+.chefs {
+	margin-top: 5em;
 
-	.set {
-		margin: 0 1em;
+	li {
+		padding: 0 1em;
+
+		p {
+			font-weight: bold;
+			padding: 0 1.5em;
+			color: #F15A24;
+		}
 	}
+}

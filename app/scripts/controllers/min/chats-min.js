@@ -1,0 +1,1 @@
+"use strict";angular.module("myappApp").controller("ChatsCtrl",function(t){t.awesomeThings=[],t.buttonAdd=function(){""!==t.txtcomment&&(t.comment.push(t.txtcomment),t.txtcomment="")}});

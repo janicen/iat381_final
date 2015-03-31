@@ -1,0 +1,11 @@
+/* ================================================================ 
+  CHATS PAGE START 
+================================================================  */
+.chefs {
+  margin-top: 5em; }
+  .chefs li {
+    padding: 0 1em; }
+    .chefs li p {
+      font-weight: bold;
+      padding: 0 1.5em;
+      color: #F15A24; }

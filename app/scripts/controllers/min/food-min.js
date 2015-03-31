@@ -1,0 +1,1 @@
+"use strict";angular.module("myappApp").controller("FoodCtrl",function(o){o.awesomeThings=[]});

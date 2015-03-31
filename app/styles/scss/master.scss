@@ -21,8 +21,21 @@ h1, h2, h3, h4, h5, h6, p {
 	}
 
 	h2 {
-		font-size: 2em;
+		font-size: 1.5em;
+		font-weight: bold;
+		padding-bottom: .8em;
+		color: #000000;
+	}
+
+	h3 {
+		font-size: 1.3em;
+		font-weight: bold;
+		padding-bottom: .5em;
 		color: #F15A24;
+	}
+
+	p {
+		color: #000000;
 	}
 
 img {
@@ -33,48 +46,38 @@ img {
 li {
   	list-style: none;
   	display: inline-block;
-
-  	img {
-		width: 32px;
-  		height: auto;
-	}
 }
 
-.images {
-	margin: 0 .5em;
+.navbar {
+  width: 100%;
+  height: auto;	
+  background-color: #F15A24;
 }
 
 .navbar-header {
 	text-align: center;
+	vertical-align: middle;
 	background-color: #F15A24;
 }
 
-.navbar {
-  background-color: #CCCCCC;
-}
-
-.navbar-nav {
-  width: 100%;
-  text-align: center;
-
-  	> li {
-		float: none;
-  		display: inline-block;
+	.header-title, .header-icon1, .header-icon2, .header-icon3 {
+		display: inline-block;
+		vertical-align: middle;
 	}
-}
-	.tabtxt {
-		padding-top: .2em;
-		color: #FFFFFF;
-	}
+
+		.header-icon1, .header-icon2, .header-icon3 {
+			width: 64px;
+			height: auto;
+		}
 
 .content {
-	margin: 8em 0;
+	margin-top: 35px;
+	text-align: center;
 }
 
 .btn {
 	color: #FFFFFF;
 	background-color: #F15A24;
-	border: none;
 }
 
 /* 
@@ -83,19 +86,9 @@ li {
  *
  */
 
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-  background-color: #7C7C7C;
-}
-
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-  background-color: #F15A24;
-}
-
 a:hover {
 	opacity: .5;
+	text-decoration: none;
 }
 
 

@@ -1,0 +1,58 @@
+/* ================================================================ 
+  FOODS PAGE START 
+================================================================  */
+
+.image-slider {
+	border-bottom: 3px solid #D1D3D4;
+
+	img {
+		width: auto;
+		height: 300px;
+	}
+}
+
+.profile-pic  {
+	position: absolute;
+	left: 40px;
+	top: 308px;
+	z-index: 1;
+	border: 3px solid #D1D3D4;
+}
+
+.content-nav {
+	overflow: hidden;
+}
+
+.rating {
+	float: left;
+	margin-top: 4.5em;
+	margin-left: 3em;
+
+	li img {
+		width: 24px;
+		height: auto;
+		margin: 0 .2em;
+	}
+}
+
+.buttons {
+	float: right;
+	margin-top: 4em;
+	margin-right: 1em;
+
+	li {
+		margin: 0 .5em;
+	}
+}
+
+.description {
+	text-align: left;
+	margin: 3em;
+}
+
+.comments {
+	overflow: hidden;
+   	width: 100%;
+	height: 44px;
+	background-color: #D1D3D4; 
+}

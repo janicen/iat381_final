@@ -1,4 +1,4 @@
-Header Start -->
+<!-- Header Start -->
 <nav class="navbar navbar-fixed-top">
 
 	<div class="navbar-header">
@@ -8,7 +8,7 @@ Header Start -->
 		</div>
 
 		<div class="header-title col-sm-6">
-			<h1>Notifications</h1>
+			<h1>Chats</h1>
 		</div>
 
 		<div class="header-icon1 col-sm-2">
@@ -27,18 +27,24 @@ Header Start -->
 <!-- Content Start -->
 <div class="content">
 
-	<div class="contacts">
-
-		<div class="contacts-pic">
-			<img src="http://placehold.it/64x64" width="64" height="64"/>
-		</div>
-
-		<div class="messages">
-			<a ng-href="#/chats"><h3>Woofie</h3></a>
-			<p>Hello there!</p>
-		</div>
-		
+	<div class="message-box">
 	</div>
 
+		<div class="comment">
+
+  <form ng-controller="ChatsCtrl">
+    <textarea ng-model="txtcomment" placeholder="Comment here"></textarea>
+  </form> 
+
+	</div>
+
+		<div class="chat-buttons">
+			<ul>
+				<li><a class="btn btn-default btn-green" ng-href="#">accept</a></li>
+				<li><a class="btn btn-default btn-red" ng-href="#">decline</a></li>
+				<li><a ng-click="buttonAdd();" class="btn btn-default" ng-href="#">send</a></li>
+			<ul>
+		</div>
+
 </div>
-<!-- Content End
+<!-- Content End -->

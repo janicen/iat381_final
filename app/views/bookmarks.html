@@ -1,9 +1,25 @@
 <!-- Header Start -->
-<nav class="navbar navbar-default navbar-fixed-top custom-navbar-top">
+<nav class="navbar navbar-fixed-top">
 
-	<div class="navbar-header col-sm-12">
-    	<h1>Bookmarks</h1>
-    </div>
+	<div class="navbar-header">
+
+		<div class="header-icon3 col-sm-2">
+			<a ng-href="#/"><img ng-src="img/icon_back.png" alt="back"/></a>
+		</div>
+
+		<div class="header-title col-sm-6">
+			<h1>Bookmarks</h1>
+		</div>
+
+		<div class="header-icon1 col-sm-2">
+			<a ng-href="#/notifications"><img ng-src="img/icon_notifications.png" alt="notifications"/></a>
+		</div>
+
+		<div class="header-icon2 col-sm-2">
+			<a ng-href="#/bookmarks"><img ng-src="img/icon_bookmarks.png" alt="bookmarks"/></a>
+		</div>
+
+	</div>
         
 </nav>
 <!-- Header End -->
@@ -11,19 +27,17 @@
 <!-- Content Start -->
 <div class="content">
 
-	<div class="tabs">
-		<a class="set btn btn-default" ng-href="#/bookmarks">foods</a>
-		<a class="set btn btn-default" ng-href="#/chefs">chefs</a>
-	</div>
-
-	<div class="groups">
-		<img class="images" src="http://placehold.it/150x150" width="150" height="150"/>
-		<img class="images" src="http://placehold.it/150x150" width="150" height="150"/>
-	</div>
-
-	<div class="groups">
-		<img class="images" src="http://placehold.it/150x150" width="150" height="150"/>
-		<img class="images" src="http://placehold.it/150x150" width="150" height="150"/>
+	<div class="chefs">
+		<ul>
+			<li><a ng-href="#/food"><img src="http://placehold.it/64x64" width="64" height="64"/></a></li>
+			<li><a ng-href="#/food"><img src="http://placehold.it/64x64" width="64" height="64"/></a></li>
+			<li><a ng-href="#/food"><img src="http://placehold.it/64x64" width="64" height="64"/></a></li>
+		</ul>
+		<ul>
+			<li><a ng-href="#/food"><p>name</p></a></li>
+			<li><a ng-href="#/food"><p>name</p></a></li>
+			<li><a ng-href="#/food"><p>name</p></a></li>
+		</ul>
 	</div>
 
 </div>

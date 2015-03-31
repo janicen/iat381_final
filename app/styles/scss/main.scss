@@ -1,24 +1,36 @@
 @import 'master';
-@import 'chefs';
-@import 'group';
-@import 'post';
+@import 'food';
+@import 'chats';
 @import 'notifications';
 @import 'bookmarks';
-@import 'trades';
+@import 'post';
 @import 'media-query';
 
 /* ================================================================ 
   MAIN PAGE START 
 ================================================================  */
 
-.title {
-    text-align: center;
-    padding: .25em 0;
+.honeycombwrapper {
+    margin: 8em 0;
 }
 
-.groups {
-    text-align: center;
-    margin-top: 2em;
+.post-button {
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    z-index: 1;
+
+    img {
+        width: 64px;
+        height: auto;
+        padding-top: .4em;
+    }
+
+    .btn {
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+    }
 }
 
 /* 
@@ -41,7 +53,7 @@
 
 // Custom page header
 .header {
-    border-bottom: 1px solid #e5e5e5;
+    //border-bottom: 1px solid #e5e5e5;
 
     // Make the masthead heading the same height as the navigation
     h3 {
