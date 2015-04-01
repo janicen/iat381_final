@@ -1,4 +1,6 @@
-﻿(function($) {
+﻿'use strict';
+
+(function($) {
     var PagesSlider = function (slider, options) {
         this.options = $.extend({
             endDuration: 300
