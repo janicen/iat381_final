@@ -12,10 +12,12 @@
 	.thing {
 		display: inline-block;
 		margin-top: 5em;
+		border: 1px solid blue;
 	}
 
 		.thing input {
 			display: inline;
+			padding: none;
 		}
 
 .comment {

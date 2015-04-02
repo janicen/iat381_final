@@ -192,10 +192,12 @@ a:hover {
 
 .thing {
   display: inline-block;
-  margin-top: 5em; }
+  margin-top: 5em;
+  border: 1px solid blue; }
 
 .thing input {
-  display: inline; }
+  display: inline;
+  padding: none; }
 
 .comment {
   text-align: center;

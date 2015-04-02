@@ -35,6 +35,7 @@
       <div flow-init="{target: '/upload'}" flow-files-submitted="$flow.upload()" flow-file-success="$file.msg = $message">
 
         <input type="file" flow-btn/>
+        <img flow-img="$flow.files[0]"/>
         <span class="btn btn-default" flow-btn>upload</span>
 
         <table>
