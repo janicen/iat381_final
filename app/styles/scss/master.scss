@@ -1,4 +1,16 @@
 /* ================================================================ 
+  MIXINS AND VARIABLES
+================================================================  */
+
+@mixin transitionAll ($time) {
+	-webkit-transition: all $time ease-in-out;
+	   -moz-transition: all $time ease-in-out;
+	     -o-transition: all $time ease-in-out;
+	        transition: all $time ease-in-out;
+}
+
+
+/* ================================================================ 
   BASE STYLE
 ================================================================  */
 
@@ -97,7 +109,7 @@ li {
  */
 
 a:hover {
-	opacity: .5;
+	opacity: 1;
 	text-decoration: none;
 }
 
