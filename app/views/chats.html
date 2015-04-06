@@ -30,23 +30,57 @@
 <div class="content">
 
 	<div class="message-box">
+
+		<!-- Person 1: Start -->
+		<div class="chat">
+			<div class="contacts-pic">
+				<img src="http://placehold.it/32x32" width="32" height="32"/>
+			</div>
+			<div class="chatmessages">
+				<a ng-href="#/chats"><h3>Woofie</h3></a>
+				<p>Sent you a request:</p>
+				<p><img src="http://placehold.it/200x200" width="200" height="200"/></p>
+				<!-- <p><img src="http://placehold.it/128x128" width="128" height="128"/></p> -->
+			</div>
+		</div>
+
+		<!-- Person 2: Start -->
+		<div class="chat">
+			<div class="contacts-pic">
+				<img src="http://placehold.it/32x32" width="32" height="32"/>
+			</div>
+			<div class="chatmessages">
+				<a ng-href="#/chats"><h3>Fatty</h3></a>
+				<p>Accepted your request</p>
+			</div>
+		</div>
+
+		<!-- Person 1: Start -->
+		<div class="chat">
+			<div class="contacts-pic">
+				<img src="http://placehold.it/32x32" width="32" height="32"/>
+			</div>
+			<div class="chatmessages">
+				<a ng-href="#/chats"><h3>Woofie</h3></a>
+				<p>Sent you a request:</p>
+				<p><img src="http://placehold.it/200x200" width="200" height="200"/></p>
+				<!-- <p><img src="http://placehold.it/128x128" width="128" height="128"/></p> -->
+			</div>
+		</div>
 	</div>
 
-		<div class="comment">
-
-  <form ng-controller="ChatsCtrl">
-    <textarea ng-model="txtcomment" placeholder="Comment here"></textarea>
-  </form> 
-
-	</div>
-
-		<div class="chat-buttons">
+	<div class="comment navbar-fixed-bottom">
+	  <form ng-controller="ChatsCtrl">
+	    <textarea ng-model="txtcomment" placeholder="Comment here"></textarea>
+	  </form>
+	  <div class="chat-buttons">
 			<ul>
 				<li><a class="btn btn-default btn-green" ng-href="#">accept</a></li>
 				<li><a class="btn btn-default btn-red" ng-href="#">decline</a></li>
 				<li><a ng-click="buttonAdd();" class="btn btn-default" ng-href="#">send</a></li>
 			<ul>
-		</div>
+		</div> 
+	</div>
 
 </div>
 <!-- Content End -->
