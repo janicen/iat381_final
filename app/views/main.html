@@ -164,7 +164,8 @@
 	      		$(image).addClass('wow zoomIn');
 	    	});
 	  	},
-	  	template: '<a href="{{link}}" target="_blank" data-wow-offset: "10" data-wow-delay="0.5s" ><img src="{{image}}" /><div class="title">{{caption}}</div><div class="likes">&hearts; {{likes}} </div></a>'
+	  	// template: '<a href="{{link}}" target="_blank" data-wow-offset: "10" data-wow-delay="0.5s" ><img src="{{image}}" /><div class="title">{{caption}}</div><div class="likes">&hearts; {{likes}} </div></a>'
+	  	template: '<a data-wow-offset: "10" data-wow-delay="0.5s" ><img src="{{image}}" /><div class="title">{{caption}}</div><div class="likes">&hearts; {{likes}} </div></a>'
 
 	});
 	feed.run();

@@ -173,17 +173,17 @@
 
     .further1 {
         @extend a;
-        border: 5px solid black;
+        border: 5px solid #c8102e;
     }
 
     .further2 {
         @extend a;
-        border: 5px solid red;
+        border: 5px solid #582c83;
     }
 
     .further3 {
         @extend a;
-        border: 5px solid blue;
+        border: 5px solid #703f2a;
     }
 
     .title {

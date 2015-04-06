@@ -394,11 +394,11 @@ textarea {
       width: 150px;
       height: 150px; }
   #instafeed .further1 {
-    border: 5px solid black; }
+    border: 5px solid #c8102e; }
   #instafeed .further2 {
-    border: 5px solid red; }
+    border: 5px solid #582c83; }
   #instafeed .further3 {
-    border: 5px solid blue; }
+    border: 5px solid #703f2a; }
   #instafeed .title {
     font-size: 1.2em;
     width: 100%;
