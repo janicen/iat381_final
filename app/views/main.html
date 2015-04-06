@@ -143,14 +143,27 @@
 <!-- Page Specific JS -->
 <script type="text/javascript">
 
+	//declare animation for instagram feed
 	new WOW().init();
+
+	//initialize variables for js sessions
+	var arr = new Array();
+	var arr2 = new Array();
+	var arr3 = new Array();
+	var i = 0,
+		j = 0,
+		k = 0;
+	sessvars.myObj = arr;
+	sessvars.myCaption = arr2;
+	sessvars.myID = arr3;
 
 	var feed = new Instafeed({
 		get: 'tagged',
         tagName: 'foodvancouver',
 	  	clientId: '9da54ad51eca4ce4af34e725ee3687b0',
-	  	limit: 20,
+	  	limit: 10,
 	  	sortBy: 'most-recent',
+	  	resolution: 'standard_resolution',
 	  	links: false,
 	  	after: function () {
 	    	var images = $("#instafeed").find('a');
@@ -162,15 +175,97 @@
 	      		$(image).css('-o-animation-delay', delay);
 	      		$(image).css('animation-delay', delay);
 	      		$(image).addClass('wow zoomIn');
-	      		console.log(image);
+	      		
+	      		//store data in js sessions
+	      		var el = image;
+				var imageSrc = el.getElementsByTagName( 'img' );
+				var caption = el.getElementsByClassName( 'title' );
+	      		sessvars.myObj[i++] = imageSrc[0].src;
+	      		sessvars.myCaption[j++] = caption[0].innerText;
+	      		sessvars.myID[k++] = index;
+	      		// console.log(imageSrc[0].src);
+				// console.log(caption[0].innerText);
 	    	});
 	  	},
 	  	// template: '<a href="{{link}}" target="_blank" data-wow-offset: "10" data-wow-delay="0.5s" ><img src="{{image}}" /><div class="title">{{caption}}</div><div class="likes">&hearts; {{likes}} </div></a>'
-	  	template: '<a data-wow-offset: "10" data-wow-delay="0.5s" ><img src="{{image}}" /><div class="title">{{caption}}</div><div class="likes">&hearts; {{likes}} </div></a>'
+	  	template: '<a onclick="setNum(sessvars.myID[0]);" href="#/food" data-wow-offset: "10" data-wow-delay="0.5s" ><img src="{{image}}" /><div class="title">{{caption}}</div><div class="likes">&hearts; {{likes}} </div></a>'
 
 	});
 	feed.run();
 	// feed.options.limit = 5;
 	// console.log(feed.options.after);
-	console.log(feed);
+	// console.log(feed);
+	$('#instafeed').on("click",function(){
+	  	$("#instafeed a:nth-child(1)").attr("onclick","setNum(0)");
+		$("#instafeed a:nth-child(2)").attr("onclick","setNum(1)");
+		$("#instafeed a:nth-child(3)").attr("onclick","setNum(2)");
+		$("#instafeed a:nth-child(4)").attr("onclick","setNum(3)");
+		$("#instafeed a:nth-child(5)").attr("onclick","setNum(4)");
+		$("#instafeed a:nth-child(6)").attr("onclick","setNum(5)");
+		$("#instafeed a:nth-child(7)").attr("onclick","setNum(6)");
+		$("#instafeed a:nth-child(8)").attr("onclick","setNum(7)");
+		$("#instafeed a:nth-child(9)").attr("onclick","setNum(8)");
+		$("#instafeed a:nth-child(10)").attr("onclick","setNum(9)");
+		$("#instafeed a:nth-child(11)").attr("onclick","setNum(10)");
+		$("#instafeed a:nth-child(12)").attr("onclick","setNum(11)");
+		$("#instafeed a:nth-child(13)").attr("onclick","setNum(12)");
+		$("#instafeed a:nth-child(14)").attr("onclick","setNum(13)");
+		$("#instafeed a:nth-child(15)").attr("onclick","setNum(14)");
+		$("#instafeed a:nth-child(16)").attr("onclick","setNum(15)");
+		$("#instafeed a:nth-child(17)").attr("onclick","setNum(16)");
+		$("#instafeed a:nth-child(18)").attr("onclick","setNum(17)");
+		$("#instafeed a:nth-child(19)").attr("onclick","setNum(18)");
+		$("#instafeed a:nth-child(20)").attr("onclick","setNum(19)");
+		$("#instafeed a:nth-child(21)").attr("onclick","setNum(20)");
+		$("#instafeed a:nth-child(22)").attr("onclick","setNum(21)");
+		$("#instafeed a:nth-child(23)").attr("onclick","setNum(22)");
+		$("#instafeed a:nth-child(24)").attr("onclick","setNum(23)");
+		$("#instafeed a:nth-child(25)").attr("onclick","setNum(24)");
+		$("#instafeed a:nth-child(26)").attr("onclick","setNum(25)");
+		$("#instafeed a:nth-child(27)").attr("onclick","setNum(26)");
+		$("#instafeed a:nth-child(28)").attr("onclick","setNum(27)");
+		$("#instafeed a:nth-child(29)").attr("onclick","setNum(28)");
+		$("#instafeed a:nth-child(30)").attr("onclick","setNum(29)");
+		$("#instafeed a:nth-child(31)").attr("onclick","setNum(30)");
+		$("#instafeed a:nth-child(32)").attr("onclick","setNum(31)");
+		$("#instafeed a:nth-child(33)").attr("onclick","setNum(32)");
+		$("#instafeed a:nth-child(34)").attr("onclick","setNum(33)");
+	});
+
+	function setNum(val) {
+		if(val === 0) { sessvars.evt = 0; }
+		if(val === 1) { sessvars.evt = 1; }
+		if(val === 2) { sessvars.evt = 2; }
+		if(val === 3) { sessvars.evt = 3; }
+		if(val === 4) { sessvars.evt = 4; }
+		if(val === 5) { sessvars.evt = 5; }
+		if(val === 6) { sessvars.evt = 6; }
+		if(val === 7) { sessvars.evt = 7; }
+		if(val === 8) { sessvars.evt = 8; }
+		if(val === 9) { sessvars.evt = 9; }
+		if(val === 10) { sessvars.evt = 10; }
+		if(val === 11) { sessvars.evt = 11; }
+		if(val === 12) { sessvars.evt = 12; }
+		if(val === 13) { sessvars.evt = 13; }
+		if(val === 14) { sessvars.evt = 14; }
+		if(val === 15) { sessvars.evt = 15; }
+		if(val === 16) { sessvars.evt = 16; }
+		if(val === 17) { sessvars.evt = 17; }
+		if(val === 18) { sessvars.evt = 18; }
+		if(val === 19) { sessvars.evt = 19; }
+		if(val === 20) { sessvars.evt = 20; }
+		if(val === 21) { sessvars.evt = 21; }
+		if(val === 22) { sessvars.evt = 22; }
+		if(val === 23) { sessvars.evt = 23; }
+		if(val === 24) { sessvars.evt = 24; }
+		if(val === 25) { sessvars.evt = 25; }
+		if(val === 26) { sessvars.evt = 26; }
+		if(val === 27) { sessvars.evt = 27; }
+		if(val === 28) { sessvars.evt = 28; }
+		if(val === 29) { sessvars.evt = 29; }
+		if(val === 30) { sessvars.evt = 30; }
+		if(val === 31) { sessvars.evt = 31; }
+		if(val === 32) { sessvars.evt = 32; }
+		if(val === 33) { sessvars.evt = 33; }
+	}
 </script>

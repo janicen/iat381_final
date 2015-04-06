@@ -163,11 +163,25 @@ angular.module('myappApp')
   });
 
 $(document).ready(function() { 
+
+	// $("#instafeed").click(function() {
+	//   	// $("#instafeed a:nth-child(1)").attr("href", "#/food");
+	// 	$("#instafeed a:nth-child(1)").attr("onclick","setNum(0)");
+	// 	$("#instafeed a:nth-child(2)").attr("onclick","setNum(1)");
+	// 	$("#instafeed a:nth-child(3)").attr("onclick","setNum(2)");
+	// 	$("#instafeed a:nth-child(4)").attr("onclick","setNum(3)");
+	// 	$("#instafeed a:nth-child(5)").attr("onclick","setNum(4)");
+	// 	$("#instafeed a:nth-child(6)").attr("onclick","setNum(5)");
+	// 	$("#instafeed a:nth-child(7)").attr("onclick","setNum(6)");
+	// 	$("#instafeed a:nth-child(8)").attr("onclick","setNum(7)");
+	// 	$("#instafeed a:nth-child(9)").attr("onclick","setNum(8)");
+	// 	$("#instafeed a:nth-child(10)").attr("onclick","setNum(9)");
+	// });
  	
 	var scrollCounter = 0;
-	
+
 	$(window).on('scroll',function(){
-		$("#instafeed a:nth-child(1)").attr("href", "#/food");
+		
 		if( ($(window).scrollTop() + $(window).height() >= $(document).height()-3) && scrollCounter != 3) {
 
 			switch(scrollCounter) {
@@ -175,7 +189,7 @@ $(document).ready(function() {
 	 				feed.options.tagName = 'food';
 	       			feed.options.limit = 8;
 			       	feed.options.after = function () {
-				    	for(var i = 21; i <= 28; i++){
+				    	for(var i = 11; i <= 18; i++){
 				    		var childSelector = "#instafeed a:nth-child(" + i + ")";
 				    		$(childSelector).addClass('wow zoomIn further1');
 				    		var descChildSelector = childSelector + " div:nth-child(2)";
@@ -189,7 +203,7 @@ $(document).ready(function() {
 	 				feed.options.tagName = 'food';
 	       			feed.options.limit = 8;
 			       	feed.options.after = function () {
-				    	for(var i = 29; i <= 36; i++){
+				    	for(var i = 19; i <= 26; i++){
 				    		var childSelector = "#instafeed a:nth-child(" + i + ")";
 				    		$(childSelector).addClass('wow zoomIn further2');
 				    		var descChildSelector = childSelector + " div:nth-child(2)";
@@ -203,7 +217,7 @@ $(document).ready(function() {
 	 				feed.options.tagName = 'food';
 	       			feed.options.limit = 8;
 			       	feed.options.after = function () {
-				    	for(var i = 37; i <= 44; i++){
+				    	for(var i = 27; i <= 34; i++){
 				    		var childSelector = "#instafeed a:nth-child(" + i + ")";
 				    		$(childSelector).addClass('wow zoomIn further3');
 				    		var descChildSelector = childSelector + " div:nth-child(2)";
@@ -215,6 +229,7 @@ $(document).ready(function() {
 			       	break;
 			}
 	   	}
+	   	console.log(i);
 	});
 
 });

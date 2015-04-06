@@ -32,13 +32,16 @@
 	<div class="image-slider">
 		<div ng-controller="FoodCtrl" class="example">
 			<a name="touch"></a>
-		    <div class="slider touch">
+		    <!-- <div class="slider touch">
 		    	<div class="food-images">
 			        <div class="page"><img src="http://placehold.it/400x300" width="400" height="300"/></div>
 			        <div class="page"><img src="http://placehold.it/400x300" width="400" height="300"/></div>
 			        <div class="page"><img src="http://placehold.it/400x300" width="400" height="300"/></div>
 			        <div class="page"><img src="http://placehold.it/400x300" width="400" height="300"/></div>
 			    </div>
+		    </div> -->
+	    	<div class="food-images">
+		        <div class="coverflow"></div>
 		    </div>
 		</div>
 	</div>
@@ -70,25 +73,19 @@
 	<div class="description" id="testing">
 		<div ng-controller="FoodCtrl" class="example">
 			<a name="touch"></a>
-		    <div class="slider touch">
+		    <!-- <div class="slider touch">
 		    	<div class="food-images">
 			        <div class="page">
 			        	<h2>Salad</h2>
-						<p>Yum yums chicken salad!<p>
-			        </div>
-			        <div class="page">
-			        	<h2>Chili</h2>
-						<p>Yum yums chili!<p>
-			        </div>
-			        <div class="page">
-			        	<h2>Dumplings</h2>
-						<p>Yum yums dumplings!<p>
-			        </div>
-			        <div class="page">
-			        	<h2>Pasta</h2>
-						<p>Yum yums pasta!<p>
+						<p>Yum yums chicken salad!</p>
 			        </div>
 			    </div>
+		    </div> -->
+	    	<div class="food-images">
+		        <div class="page">
+		        	<h2>Salad</h2>
+					<p>Yum yums chicken salad!</p>
+		        </div>
 		    </div>
 		</div>
 	</div>
@@ -104,3 +101,29 @@
 
 </div>
 <!-- Content End -->
+
+<!-- Page Specific JS -->
+<script type="text/javascript">
+	// for(var i = 0; i < 10; i++) {
+	// 	console.log(sessvars.myObj[i]);
+	// 	console.log(sessvars.myCaption[i]);
+	// }
+	var imgSrcString = "url(" + sessvars.myObj[sessvars.evt] + ")";
+	var h2tag = sessvars.myCaption[sessvars.evt].split(" ");
+	    h2tag = h2tag[0] + " " + h2tag[1];
+	var ptag  = sessvars.myCaption[sessvars.evt];
+	// $(".page img").attr('src', imgSrcString);
+	$(".coverflow").css('background-image', imgSrcString);
+	// console.log(h2tag);
+	// console.log(ptag);
+	$( ".page h2" ).replaceWith( "<h2>" + h2tag + "</h2>" );
+	$( ".page p" ).replaceWith( "<p>" + ptag + "</p>" );
+	// console.log(sessvars.evt);
+</script>
+
+
+
+
+
+
+
