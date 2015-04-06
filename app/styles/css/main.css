@@ -259,9 +259,9 @@ textarea {
   /*overflow: hidden;*/
   width: 360px;
   height: 100%;
-  position: absolute;
-  top: 55px;
-  margin: 0 auto; }
+  position: relative;
+  top: 5px;
+  left: calc(50% - 180px); }
 
 /* HEXAGON STARTS HERE */
 .hex {
@@ -356,8 +356,8 @@ textarea {
 
 .post-button {
   position: fixed;
-  right: 40px;
-  bottom: 40px;
+  right: 10px;
+  bottom: 10px;
   z-index: 1; }
   .post-button img {
     width: 64px;
@@ -375,8 +375,7 @@ textarea {
     background-color: #F0825B; }
 
 #instafeed {
-  position: relative;
-  left: -5px; }
+  position: relative; }
   #instafeed a {
     padding: 0px;
     margin: 5px;
@@ -394,7 +393,7 @@ textarea {
   #instafeed .title {
     font-size: 1.2em;
     width: 100%;
-    height: auto;
+    height: 25px;
     background-color: #F74C0F;
     color: white;
     position: absolute;
