@@ -161,9 +161,9 @@
         display:inline-block;
         border-radius: 4px;
         position:relative;
-        background-color: #F08F6C;
+        background-color: #F15A24;
         border-radius: 25px;
-        border: 5px solid #F08F6C;
+        border: 5px solid #F15A24;
         overflow: hidden;
         img {
             width: 150px;
@@ -173,17 +173,17 @@
 
     .further1 {
         @extend a;
-        border: 5px solid #c8102e;
+        border: 5px solid #ED1C24;
     }
 
     .further2 {
         @extend a;
-        border: 5px solid #582c83;
+        border: 5px solid #C1272D;
     }
 
     .further3 {
         @extend a;
-        border: 5px solid #703f2a;
+        border: 5px solid #603813;
     }
 
     .title {

@@ -219,7 +219,7 @@ $(document).ready(function() {
 				    		var childSelector = "#instafeed a:nth-child(" + i + ")";
 				    		$(childSelector).addClass('wow zoomIn further1');
 				    		var descChildSelector = childSelector + " div:nth-child(2)";
-				    		$(descChildSelector).css("background","#c8102e");
+				    		$(descChildSelector).css("background","#ED1C24");
 				    	}
 
 				  	};
@@ -260,7 +260,7 @@ $(document).ready(function() {
 				    		var childSelector = "#instafeed a:nth-child(" + i + ")";
 				    		$(childSelector).addClass('wow zoomIn further2');
 				    		var descChildSelector = childSelector + " div:nth-child(2)";
-				    		$(descChildSelector).css("background","#582c83");
+				    		$(descChildSelector).css("background","#C1272D");
 				    	}
 				  	};
 			       	feed.run();
@@ -300,7 +300,7 @@ $(document).ready(function() {
 				    		var childSelector = "#instafeed a:nth-child(" + i + ")";
 				    		$(childSelector).addClass('wow zoomIn further3');
 				    		var descChildSelector = childSelector + " div:nth-child(2)";
-				    		$(descChildSelector).css("background","#703f2a");
+				    		$(descChildSelector).css("background","#603813");
 				    	}
 				  	};
 			       	feed.run();
