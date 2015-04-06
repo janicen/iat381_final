@@ -159,9 +159,25 @@ a:hover, #instafeed .further1:hover, #instafeed .further2:hover, #instafeed .fur
 ================================================================  */
 .message-box {
   width: 100%;
-  height: 300px;
-  padding: 2em;
-  border: 1px solid blue; }
+  padding: 2em 2em 8em 2em; }
+
+.chat {
+  vertical-align: middle;
+  overflow: hidden;
+  text-align: left;
+  margin-bottom: 2em; }
+  .chat .contacts-pic {
+    float: left; }
+    .chat .contacts-pic img {
+      width: 32px;
+      height: auto;
+      border: 2px solid #D1D3D4; }
+  .chat p {
+    padding-bottom: 1em; }
+
+.chatmessages {
+  display: inline-block;
+  margin-left: 2em; }
 
 .chat-buttons li {
   margin: 0 .5em; }
@@ -171,6 +187,12 @@ a:hover, #instafeed .further1:hover, #instafeed .further2:hover, #instafeed .fur
 
 .btn-red {
   background-color: #C1272D; }
+
+.comment {
+  overflow: hidden;
+  display: inline-block;
+  padding: 1em 0;
+  background-color: #FFFFFF; }
 
 /* ================================================================ 
   NOTIFICATIONS PAGE START 
