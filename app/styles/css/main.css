@@ -61,7 +61,8 @@ li {
 
 .header-title, .header-icon1, .header-icon2, .header-icon3 {
   display: inline-block;
-  vertical-align: middle; }
+  vertical-align: middle;
+  padding: 0; }
 
 .header-icon1, .header-icon2, .header-icon3 {
   width: 64px;
