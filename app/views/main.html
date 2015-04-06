@@ -162,6 +162,7 @@
 	      		$(image).css('-o-animation-delay', delay);
 	      		$(image).css('animation-delay', delay);
 	      		$(image).addClass('wow zoomIn');
+	      		console.log(image);
 	    	});
 	  	},
 	  	// template: '<a href="{{link}}" target="_blank" data-wow-offset: "10" data-wow-delay="0.5s" ><img src="{{image}}" /><div class="title">{{caption}}</div><div class="likes">&hearts; {{likes}} </div></a>'
@@ -171,4 +172,5 @@
 	feed.run();
 	// feed.options.limit = 5;
 	// console.log(feed.options.after);
+	console.log(feed);
 </script>
