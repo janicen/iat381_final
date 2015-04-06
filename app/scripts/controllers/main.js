@@ -186,7 +186,7 @@ $(document).ready(function() {
 
 			switch(scrollCounter) {
 				case 0 :
-	 				feed.options.tagName = 'toy';
+	 				feed.options.tagName = 'iat381fooddunbar';
 	       			feed.options.limit = 8;
 			       	feed.options.after = function () {
 
@@ -227,7 +227,7 @@ $(document).ready(function() {
 			       	scrollCounter++;
 			       	break;
 			    case 1 :
-	 				feed.options.tagName = 'food';
+	 				feed.options.tagName = 'iat381foodubc';
 	       			feed.options.limit = 8;
 			       	feed.options.after = function () {
 
@@ -267,7 +267,7 @@ $(document).ready(function() {
 			       	scrollCounter++;
 			       	break;
 			    case 2 :
-	 				feed.options.tagName = 'food';
+	 				feed.options.tagName = 'iat381foodkerisdale';
 	       			feed.options.limit = 8;
 			       	feed.options.after = function () {
 
