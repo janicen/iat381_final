@@ -92,6 +92,7 @@ a:hover, #instafeed .further1:hover, #instafeed .further2:hover, #instafeed .fur
 /* ================================================================ 
   FOODS PAGE START 
 ================================================================  */
+/*** Image Cover: Start ***/
 .image-slider, .description-slider {
   overflow: hidden;
   width: 100%;
@@ -101,14 +102,6 @@ a:hover, #instafeed .further1:hover, #instafeed .further2:hover, #instafeed .fur
     width: auto;
     height: 300px; }
 
-.slider {
-  overflow: hidden;
-  display: inline-block; }
-  .slider .food-images {
-    position: relative; }
-    .slider .food-images .page {
-      float: left; }
-
 .coverflow {
   width: 360px;
   height: 300px;
@@ -116,12 +109,7 @@ a:hover, #instafeed .further1:hover, #instafeed .further2:hover, #instafeed .fur
   background-position: center center;
   background-size: cover; }
 
-.page {
-  width: 360px;
-  height: 300px;
-  background-repeat: no-repeat;
-  background-size: cover; }
-
+/*** Profile Content: Start ***/
 .profile-pic {
   position: absolute;
   left: 40px;
@@ -134,27 +122,57 @@ a:hover, #instafeed .further1:hover, #instafeed .further2:hover, #instafeed .fur
 .content-nav {
   overflow: hidden; }
 
-.buttons {
-  float: right;
-  margin-top: 2em;
-  margin-right: 1em; }
-  .buttons li {
-    margin: 0 .5em; }
+/*** Instafeed Post: Start ***/
+.page {
+  overflow: hidden;
+  width: 360px;
+  display: inline-block;
+  margin: 2em 0;
+  padding: 0 1em; }
 
 .description {
   text-align: left;
-  margin: 3em 0em; }
+  margin-top: 3em; }
   .description h2 {
     padding: 0em 1em 0em 1em; }
   .description p {
     padding: 1em 1em 0em 1em;
     text-wrap: normal; }
 
+/*** Messages : Start ***/
+.message-box {
+  width: 100%;
+  margin-bottom: 4em;
+  padding: 0 2em; }
+
+.chat {
+  vertical-align: middle;
+  overflow: hidden;
+  text-align: left;
+  margin-bottom: 2em; }
+  .chat .contacts-pic {
+    float: left; }
+    .chat .contacts-pic img {
+      width: 32px;
+      height: auto;
+      border: 2px solid #D1D3D4; }
+  .chat p {
+    padding-bottom: 1em; }
+
+.chatmessages {
+  display: inline-block;
+  margin-left: 2em; }
+
+/*** Comments : Start ***/
 .comments {
   overflow: hidden;
-  width: 100%;
-  height: 44px;
-  background-color: #D1D3D4; }
+  display: inline-block;
+  padding: 2em 0;
+  background-color: #FFFFFF;
+  border-top: 2px solid #D1D3D4; }
+
+.chat-buttons li {
+  margin: 0 .5em; }
 
 /* ================================================================ 
   CHATS PAGE START 

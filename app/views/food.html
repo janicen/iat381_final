@@ -8,7 +8,7 @@
 				<a ng-href="#/"><img ng-src="img/icon_back.png" alt="back"/></a>
 			</div>
 			<div class="header-title col-sm-6">
-				<h1>Author</h1>
+				<h1>Food</h1>
 			</div>
 		</div>
 
@@ -31,15 +31,6 @@
 
 	<div class="image-slider">
 		<div ng-controller="FoodCtrl" class="example">
-			<a name="touch"></a>
-		    <!-- <div class="slider touch">
-		    	<div class="food-images">
-			        <div class="page"><img src="http://placehold.it/400x300" width="400" height="300"/></div>
-			        <div class="page"><img src="http://placehold.it/400x300" width="400" height="300"/></div>
-			        <div class="page"><img src="http://placehold.it/400x300" width="400" height="300"/></div>
-			        <div class="page"><img src="http://placehold.it/400x300" width="400" height="300"/></div>
-			    </div>
-		    </div> -->
 	    	<div class="food-images">
 		        <div class="coverflow"></div>
 		    </div>
@@ -50,16 +41,7 @@
 		<img src="http://placehold.it/80x80" width="80" height="80"/>
 	</div>
 
-	<div class="content-nav">
-
-		<!-- <div class="rating">
-			<ul>
-				<li><img ng-src="img/icon_ratingactive.png" alt="ratingactive"/></li>
-				<li><img ng-src="img/icon_ratingactive.png" alt="ratingactive"/></li>
-				<li><img ng-src="img/icon_ratingdeactive.png" alt="ratingdeactive"/></li>
-			</ul>
-		</div> -->
-
+	<!-- <div class="content-nav">
 		<div class="buttons">
 			<ul>
 				<li><a class="btn btn-default" ng-href="#">follow</a></li>
@@ -67,20 +49,10 @@
 				<li><a class="btn btn-default" ng-href="#">request</a></li>
 			<ul>
 		</div>
-
-	</div>
+	</div> -->
 
 	<div class="description" id="testing">
 		<div ng-controller="FoodCtrl" class="example">
-			<a name="touch"></a>
-		    <!-- <div class="slider touch">
-		    	<div class="food-images">
-			        <div class="page">
-			        	<h2>Salad</h2>
-						<p>Yum yums chicken salad!</p>
-			        </div>
-			    </div>
-		    </div> -->
 	    	<div class="food-images">
 		        <div class="page">
 		        	<h2>Salad</h2>
@@ -90,14 +62,54 @@
 		</div>
 	</div>
 
-	<!-- <div class="description">
-		<h2>Salad</h2>
-		<p>Yum yums chicken salad!<p>
-	</div> -->
+	<div class="message-box">
 
-	<!-- <div class="comments navbar-fixed-bottom">
-		<a ng-href="#">comments</a>
-	</div> -->
+		<!-- Person 1: Start -->
+		<div class="chat">
+			<div class="contacts-pic">
+				<img src="http://placehold.it/32x32" width="32" height="32"/>
+			</div>
+			<div class="chatmessages">
+				<h3>Woofie</h3>
+				<p>Sent you a request</p>
+			</div>
+		</div>
+
+		<!-- Person 2: Start -->
+		<div class="chat">
+			<div class="contacts-pic">
+				<img src="http://placehold.it/32x32" width="32" height="32"/>
+			</div>
+			<div class="chatmessages">
+				<h3>Fatty</h3>
+				<p>Accepted your request</p>
+			</div>
+		</div>
+
+		<!-- Person 1: Start -->
+		<div class="chat">
+			<div class="contacts-pic">
+				<img src="http://placehold.it/32x32" width="32" height="32"/>
+			</div>
+			<div class="chatmessages">
+				<h3>Woofie</h3>
+				<p>Sent you a request</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="comments navbar-fixed-bottom">
+		<form ng-controller="FoodCtrl">
+	    	<textarea ng-model="txtcomment" placeholder="Comment here"></textarea>
+	  	</form>
+	  	<div class="chat-buttons">
+			<ul>
+				<li><a class="btn btn-default" ng-href="#">follow</a></li>
+				<li><a class="btn btn-default" ng-href="#">request</a></li>
+				<li><a ng-click="buttonAdd();" class="btn btn-default" ng-href="#">send</a></li>
+			<ul>
+		</div> 
+	</div>
 
 </div>
 <!-- Content End -->

@@ -2,6 +2,8 @@
   FOODS PAGE START 
 ================================================================  */
 
+/*** Image Cover: Start ***/
+
 .image-slider, .description-slider {
 	overflow: hidden;
 	width: 100%;
@@ -14,19 +16,6 @@
 	}
 }
 
-.slider {
-    overflow: hidden;
-    display: inline-block;
-
-    .food-images {
-    	position: relative;
-
-    	.page {
-    		float: left;
-    	}
-    }
-}
-
 .coverflow {
     width: 360px;
     height: 300px;  
@@ -35,25 +24,7 @@
     background-size: cover;
 }
 
-.page {
-    width: 360px;
-    height: 300px;  
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-// .page:nth-child(1) {
-//     background-image: url('http://www.lorempixum.com/400/300/?1');
-// }
-// .page:nth-child(2) {
-//     background-image: url('http://www.lorempixum.com/400/300/?2');
-// }
-// .page:nth-child(3) {
-//     background-image: url('http://www.lorempixum.com/400/300/?3');
-// }
-// .page:nth-child(4) {
-//     background-image: url('http://www.lorempixum.com/400/300/?4');
-// }
+/*** Profile Content: Start ***/
 
 .profile-pic  {
 	position: absolute;
@@ -69,32 +40,29 @@
 	overflow: hidden;
 }
 
-// .rating {
-// 	float: left;
-// 	margin-top: 4.5em;
-// 	margin-left: 3em;
+// .buttons {
+// 	float: right;
+// 	margin: .5em 1em 0 1em;
+// 	padding: 1em 0;
 
-// 	li img {
-// 		width: 24px;
-// 		height: auto;
-// 		margin: 0 .2em;
+// 	li {
+// 		margin: 0 .8em;
 // 	}
 // }
 
-.buttons {
-	float: right;
-	// margin-top: 4em;
-	margin-top: 2em;
-	margin-right: 1em;
+/*** Instafeed Post: Start ***/
 
-	li {
-		margin: 0 .5em;
-	}
+.page {
+	overflow: hidden;
+    width: 360px; 
+    display: inline-block;
+	margin: 2em 0;
+	padding: 0 1em;
 }
 
 .description {
 	text-align: left;
-	margin: 3em 0em;
+	margin-top: 3em;
 	// outline: 1px solid black;
 
 	h2 {
@@ -107,9 +75,52 @@
 	}
 }
 
+/*** Messages : Start ***/
+
+.message-box {
+	width: 100%;
+	margin-bottom: 4em;
+	padding: 0 2em;
+}
+
+.chat {
+	vertical-align: middle;
+	overflow: hidden;
+	text-align: left;
+	margin-bottom: 2em;
+
+	.contacts-pic {
+		float: left;
+
+		img {
+			width: 32px;
+			height: auto;
+			border: 2px solid #D1D3D4;
+		}
+	}
+
+	p {
+		padding-bottom: 1em;
+	}
+}
+
+	.chatmessages {
+		display: inline-block;
+		margin-left: 2em;
+	}
+
+/*** Comments : Start ***/
+
 .comments {
 	overflow: hidden;
-   	width: 100%;
-	height: 44px;
-	background-color: #D1D3D4; 
+	display: inline-block;
+	padding: 2em 0;
+	background-color: #FFFFFF;
+	border-top: 2px solid #D1D3D4;
 }
+
+	.chat-buttons {
+		li {
+			margin: 0 .5em;
+		}
+	}

@@ -1,1 +1,1 @@
-"use strict";angular.module("myappApp").controller("FoodCtrl",function(e){e.awesomeThings=[],jQuery(function(){jQuery(".slider.touch").pagesSliderTouch(),jQuery(".slider").pagesSlider()})});
+"use strict";angular.module("myappApp").controller("FoodCtrl",function(t){t.awesomeThings=[],t.buttonAdd=function(){""!==t.txtcomment&&(t.comment.push(t.txtcomment),t.txtcomment="")},jQuery(function(){jQuery(".slider.touch").pagesSliderTouch(),jQuery(".slider").pagesSlider()})});
