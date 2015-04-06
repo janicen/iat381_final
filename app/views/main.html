@@ -150,21 +150,36 @@
 	var arr = new Array();
 	var arr2 = new Array();
 	var arr3 = new Array();
+	var arr4 = new Array();
+	var arr5 = new Array();
 	var i = 0,
 		j = 0,
-		k = 0;
+		k = 0,
+		x = 0,
+		y = 0;
 	sessvars.myObj = arr;
 	sessvars.myCaption = arr2;
 	sessvars.myID = arr3;
+	sessvars.myUser = arr4;
+	sessvars.myUserPic = arr5;
 
 	var feed = new Instafeed({
 		get: 'tagged',
         tagName: 'iat381foodkitsilano',
 	  	clientId: '9da54ad51eca4ce4af34e725ee3687b0',
-	  	limit: 10,
+	  	limit: 9,
 	  	sortBy: 'most-recent',
 	  	resolution: 'standard_resolution',
 	  	links: false,
+	  	filter: function(image) {
+	  		
+		  	// console.log(image.user.profile_picture);
+		  	sessvars.myUser[x++] = image.user.username;
+		  	sessvars.myUserPic[y++] = image.user.profile_picture;
+		  	// console.log(sessvars.myUser[0]);
+		  	return true;
+
+		},
 	  	after: function () {
 	    	var images = $("#instafeed").find('a');
 	    	$.each(images, function(index, image) {
@@ -185,6 +200,7 @@
 	      		sessvars.myID[k++] = index;
 	      		// console.log(imageSrc[0].src);
 				// console.log(caption[0].innerText);
+				// console.log(image.user.username);
 	    	});
 	  	},
 	  	// template: '<a href="{{link}}" target="_blank" data-wow-offset: "10" data-wow-delay="0.5s" ><img src="{{image}}" /><div class="title">{{caption}}</div><div class="likes">&hearts; {{likes}} </div></a>'

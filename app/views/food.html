@@ -107,6 +107,8 @@
 	// for(var i = 0; i < 10; i++) {
 	// 	console.log(sessvars.myObj[i]);
 	// 	console.log(sessvars.myCaption[i]);
+	// 	console.log(sessvars.myUser[i]);
+	// 	console.log(sessvars.myUserPic[i]);
 	// }
 	var imgSrcString = "url(" + sessvars.myObj[sessvars.evt] + ")";
 	var h2tag = sessvars.myCaption[sessvars.evt].split(" ");
@@ -119,6 +121,8 @@
 	$( ".page h2" ).replaceWith( "<h2>" + h2tag + "</h2>" );
 	$( ".page p" ).replaceWith( "<p>" + ptag + "</p>" );
 	// console.log(sessvars.evt);
+	var profilePic = sessvars.myUserPic[sessvars.evt];
+	$(".profile-pic img").attr('src', profilePic);
 </script>
 
 
