@@ -164,12 +164,51 @@ angular.module('myappApp')
 
 $(document).ready(function() { 
  	
-	// $(window).on('scroll',function(){
- //        for(var i = 1; i <= 20; i++) {
-	//     	var childSelector = "#instafeed a:nth-child(" + i + ")";
-	//     	$(childSelector).addClass('wow');
-	//     	console.log(childSelector);
-	//     }
- //    });
+	var scrollCounter = 0;
+
+	$(window).on('scroll',function(){
+		// $("#instafeed a:nth-child(1)").attr("href", "#/food");
+		if( ($(window).scrollTop() + $(window).height() >= $(document).height()-3) && scrollCounter != 3) {
+
+			switch(scrollCounter) {
+				case 0 :
+	 				feed.options.tagName = 'food';
+	       			feed.options.limit = 8;
+			       	feed.options.after = function () {
+				    	for(var i = 21; i <= 28; i++){
+				    		var childSelector = "#instafeed a:nth-child(" + i + ")";
+				    		$(childSelector).addClass('wow zoomIn further1');
+				    	}
+				  	}
+			       	feed.run();
+			       	scrollCounter++;
+			       	break;
+			    case 1 :
+	 				feed.options.tagName = 'food';
+	       			feed.options.limit = 8;
+			       	feed.options.after = function () {
+				    	for(var i = 29; i <= 36; i++){
+				    		var childSelector = "#instafeed a:nth-child(" + i + ")";
+				    		$(childSelector).addClass('wow zoomIn further2');
+				    	}
+				  	}
+			       	feed.run();
+			       	scrollCounter++;
+			       	break;
+			    case 2 :
+	 				feed.options.tagName = 'food';
+	       			feed.options.limit = 8;
+			       	feed.options.after = function () {
+				    	for(var i = 37; i <= 44; i++){
+				    		var childSelector = "#instafeed a:nth-child(" + i + ")";
+				    		$(childSelector).addClass('wow zoomIn further3');
+				    	}
+				  	}
+			       	feed.run();
+			       	scrollCounter++;
+			       	break;
+			}
+	   	}
+	});
 
 });

@@ -151,6 +151,7 @@
 	  	clientId: '9da54ad51eca4ce4af34e725ee3687b0',
 	  	limit: 20,
 	  	sortBy: 'most-recent',
+	  	links: false,
 	  	after: function () {
 	    	var images = $("#instafeed").find('a');
 	    	$.each(images, function(index, image) {
@@ -167,4 +168,6 @@
 
 	});
 	feed.run();
+	// feed.options.limit = 5;
+	// console.log(feed.options.after);
 </script>

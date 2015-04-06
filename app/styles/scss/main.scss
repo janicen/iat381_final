@@ -171,6 +171,21 @@
         }
     }
 
+    .further1 {
+        @extend a;
+        border: 5px solid black;
+    }
+
+    .further2 {
+        @extend a;
+        border: 5px solid red;
+    }
+
+    .further3 {
+        @extend a;
+        border: 5px solid blue;
+    }
+
     .title {
         font-size: 1.2em;
         width: 100%;
