@@ -142,11 +142,14 @@
 
 <!-- Page Specific JS -->
 <script type="text/javascript">
+
+	new WOW().init();
+
 	var feed = new Instafeed({
 		get: 'tagged',
         tagName: 'foodvancouver',
 	  	clientId: '9da54ad51eca4ce4af34e725ee3687b0',
-	  	limit: 21,
+	  	limit: 20,
 	  	sortBy: 'most-recent',
 	  	after: function () {
 	    	var images = $("#instafeed").find('a');
@@ -157,10 +160,10 @@
 	      		$(image).css('-ms-animation-delay', delay);
 	      		$(image).css('-o-animation-delay', delay);
 	      		$(image).css('animation-delay', delay);
-	      		$(image).addClass('animated zoomIn');
+	      		$(image).addClass('wow zoomIn');
 	    	});
 	  	},
-	  	template: '<a href="{{link}}" target="_blank"><img src="{{image}}" /><div class="title">{{caption}}</div><div class="likes">&hearts; {{likes}} </div></a>'
+	  	template: '<a href="{{link}}" target="_blank" data-wow-offset: "10" data-wow-delay="0.5s" ><img src="{{image}}" /><div class="title">{{caption}}</div><div class="likes">&hearts; {{likes}} </div></a>'
 
 	});
 	feed.run();
