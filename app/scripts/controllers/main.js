@@ -186,16 +186,43 @@ $(document).ready(function() {
 
 			switch(scrollCounter) {
 				case 0 :
-	 				feed.options.tagName = 'food';
+	 				feed.options.tagName = 'toy';
 	       			feed.options.limit = 8;
 			       	feed.options.after = function () {
+
+			       		var i = 10,
+							j = 10,
+							k = 10;
+
+			       		var images = $("#instafeed").find('a');
+				    	$.each(images, function(index, image) {
+				    		if(index >= 10) {
+					      		var delay = (index * 75) + 'ms';
+					      		$(image).css('-webkit-animation-delay', delay);
+					      		$(image).css('-moz-animation-delay', delay);
+					      		$(image).css('-ms-animation-delay', delay);
+					      		$(image).css('-o-animation-delay', delay);
+					      		$(image).css('animation-delay', delay);
+					      		$(image).addClass('wow zoomIn');
+					      		
+					      		//store data in js sessions
+					      		var el = image;
+								var imageSrc = el.getElementsByTagName( 'img' );
+								var caption = el.getElementsByClassName( 'title' );
+					      		sessvars.myObj[i++] = imageSrc[0].src;
+					      		sessvars.myCaption[j++] = caption[0].innerText;
+					      		sessvars.myID[k++] = index;
+					      	}
+				    	});
+
 				    	for(var i = 11; i <= 18; i++){
 				    		var childSelector = "#instafeed a:nth-child(" + i + ")";
 				    		$(childSelector).addClass('wow zoomIn further1');
 				    		var descChildSelector = childSelector + " div:nth-child(2)";
 				    		$(descChildSelector).css("background","#c8102e");
 				    	}
-				  	}
+
+				  	};
 			       	feed.run();
 			       	scrollCounter++;
 			       	break;
@@ -203,13 +230,39 @@ $(document).ready(function() {
 	 				feed.options.tagName = 'food';
 	       			feed.options.limit = 8;
 			       	feed.options.after = function () {
+
+			       		var i = 18,
+							j = 18,
+							k = 18;
+
+			       		var images = $("#instafeed").find('a');
+				    	$.each(images, function(index, image) {
+				    		if(index >= 18) {
+					      		var delay = (index * 75) + 'ms';
+					      		$(image).css('-webkit-animation-delay', delay);
+					      		$(image).css('-moz-animation-delay', delay);
+					      		$(image).css('-ms-animation-delay', delay);
+					      		$(image).css('-o-animation-delay', delay);
+					      		$(image).css('animation-delay', delay);
+					      		$(image).addClass('wow zoomIn');
+					      		
+					      		//store data in js sessions
+					      		var el = image;
+								var imageSrc = el.getElementsByTagName( 'img' );
+								var caption = el.getElementsByClassName( 'title' );
+					      		sessvars.myObj[i++] = imageSrc[0].src;
+					      		sessvars.myCaption[j++] = caption[0].innerText;
+					      		sessvars.myID[k++] = index;
+					      	}
+				    	});
+
 				    	for(var i = 19; i <= 26; i++){
 				    		var childSelector = "#instafeed a:nth-child(" + i + ")";
 				    		$(childSelector).addClass('wow zoomIn further2');
 				    		var descChildSelector = childSelector + " div:nth-child(2)";
 				    		$(descChildSelector).css("background","#582c83");
 				    	}
-				  	}
+				  	};
 			       	feed.run();
 			       	scrollCounter++;
 			       	break;
@@ -217,19 +270,44 @@ $(document).ready(function() {
 	 				feed.options.tagName = 'food';
 	       			feed.options.limit = 8;
 			       	feed.options.after = function () {
+
+			       		var i = 26,
+							j = 26,
+							k = 26;
+
+			       		var images = $("#instafeed").find('a');
+				    	$.each(images, function(index, image) {
+				    		if(index >= 26) {
+					      		var delay = (index * 75) + 'ms';
+					      		$(image).css('-webkit-animation-delay', delay);
+					      		$(image).css('-moz-animation-delay', delay);
+					      		$(image).css('-ms-animation-delay', delay);
+					      		$(image).css('-o-animation-delay', delay);
+					      		$(image).css('animation-delay', delay);
+					      		$(image).addClass('wow zoomIn');
+					      		
+					      		//store data in js sessions
+					      		var el = image;
+								var imageSrc = el.getElementsByTagName( 'img' );
+								var caption = el.getElementsByClassName( 'title' );
+					      		sessvars.myObj[i++] = imageSrc[0].src;
+					      		sessvars.myCaption[j++] = caption[0].innerText;
+					      		sessvars.myID[k++] = index;
+					      	}
+				    	});
+
 				    	for(var i = 27; i <= 34; i++){
 				    		var childSelector = "#instafeed a:nth-child(" + i + ")";
 				    		$(childSelector).addClass('wow zoomIn further3');
 				    		var descChildSelector = childSelector + " div:nth-child(2)";
 				    		$(descChildSelector).css("background","#703f2a");
 				    	}
-				  	}
+				  	};
 			       	feed.run();
 			       	scrollCounter++;
 			       	break;
 			}
 	   	}
-	   	console.log(i);
 	});
 
 });

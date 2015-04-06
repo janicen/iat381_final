@@ -3768,7 +3768,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 0
 		},
 	"\/app\/scripts\/controllers\/min\/chats-min.js": {
 		"fileType": 64,
@@ -3886,6 +3886,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/app\/scripts\/min\/slider-touch-min.js",
 		"outputAbbreviatedPath": "\/app\/scripts\/min\/min\/slider-touch-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/app\/scripts\/sessvars.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/scripts\/sessvars.js",
+		"outputAbbreviatedPath": "\/app\/scripts\/min\/sessvars-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
