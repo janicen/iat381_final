@@ -42,7 +42,7 @@ $(document).ready(function() {
 			switch(scrollCounter) {
 				case 0 :
 	 				feed.options.tagName = 'iat381fooddunbar';
-	       			feed.options.limit = 8;
+	       			feed.options.limit = 7;
 			       	feed.options.after = function () {
 
 			       		var i = 10,
@@ -83,7 +83,7 @@ $(document).ready(function() {
 			       	break;
 			    case 1 :
 	 				feed.options.tagName = 'iat381foodubc';
-	       			feed.options.limit = 8;
+	       			feed.options.limit = 7;
 			       	feed.options.after = function () {
 
 			       		var i = 18,
@@ -123,8 +123,8 @@ $(document).ready(function() {
 			       	scrollCounter++;
 			       	break;
 			    case 2 :
-	 				feed.options.tagName = 'iat381foodkerisdale';
-	       			feed.options.limit = 8;
+	 				feed.options.tagName = 'iat381foodkerrisdale';
+	       			feed.options.limit = 7;
 			       	feed.options.after = function () {
 
 			       		var i = 26,
