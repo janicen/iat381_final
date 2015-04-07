@@ -2,21 +2,6 @@
   FOODS PAGE START 
 ================================================================  */
 
-#dv1 { 
-  margin-left:auto; 
-  margin-right:auto;  
-  // width:550px;  
-  width:360px;
-  padding: 25px; 
-  background-color: blue;
-}
-
-ul {
-  list-style-type: none;  
-  margin: 0;
-  padding: 0;            
-}
-
 /*** Image Cover: Start ***/
 
 .image-slider, .description-slider {
@@ -129,12 +114,36 @@ ul {
 .comments {
 	overflow: hidden;
 	display: inline-block;
-	padding: 2em 0;
-	background-color: #FFFFFF;
-	border-top: 2px solid #D1D3D4;
+	padding: 2em 3em;
+	background-color: #D1D3D4;
+	// border-top: 2px solid #D1D3D4;
+	color: #000000;
+	text-align: left;
+
+	h4 {
+		padding: 2em 0 1em 0;
+	}
+
+	textarea {
+		margin-bottom: 1em;
+	}
 }
 
+	.commentslist ul {
+		list-style-type: none;  
+		margin: 0;
+
+		li {
+			display: block;
+			margin-bottom: 1em;
+			padding: .5em;
+			background-color: #FFFFFF;
+		}        
+	}
+
 	.chat-buttons {
+		text-align: center;
+
 		li {
 			margin: 0 .5em;
 		}
