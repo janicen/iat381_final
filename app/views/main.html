@@ -133,7 +133,7 @@
 	<!-- Hexagons End -->
 
 	<div class="plus-button">
-		<a id="post_feed" class="btn btn-default" ng-href="#"><img ng-src="img/icon_plus.png" alt="plus"/></a>
+		<a id="post_feed" class="btn btn-default"><img ng-src="img/icon_plus.png" alt="plus"/></a>
 	</div>
 
 	<div class="post-button">
@@ -292,7 +292,7 @@
 		if(val === 33) { sessvars.evt = 33; }
 		if(val === -1) { sessvars.evt = -1; }
 	}
-	$('#instafeed').on("click",function(){
-		$("#post_feed").prepend('<a class="special" onclick="setNum(-1);" href="#/food" data-wow-offset: "10" data-wow-delay="0.5s" ><img src="'+ sessvars.img +'" /><div class="title-special">'+ sessvars.photoCaption +'</div><div class="likes">&hearts; 0 </div></a>');
+	$('#post_feed').on("click",function(){
+		$("#instafeed").prepend('<a class="special" onclick="setNum(-1);" href="#/food" data-wow-offset: "10" data-wow-delay="0.5s" ><img src="'+ sessvars.img +'" /><div class="title-special">'+ sessvars.photoCaption +'</div><div class="likes">&hearts; 0 </div></a>');
 	});
 </script>
