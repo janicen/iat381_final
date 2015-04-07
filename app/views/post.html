@@ -1,3 +1,16 @@
+<!-- Page Specific JS -->
+<script language="JavaScript">
+    Webcam.attach( '#my_camera' );
+
+    function take_snapshot() {
+        Webcam.snap( function(data_uri) {
+            document.getElementById('my_result').innerHTML = '<img src="'+data_uri+'"/>';
+            console.log(data_uri);
+            sessvars.img = data_uri;
+        } );
+    }
+</script>
+
 <!-- Header Start -->
 <nav class="navbar navbar-fixed-top">
 
@@ -30,11 +43,10 @@
 <!-- Content Start -->
 <div class="content">
 
-	<div class="picture">
+<!-- 	<div class="picture">
 
 		<div class="thing">
 
-  		<!-- Flow.JS Start: http://flowjs.github.io/ng-flow/ -->
       <div flow-init="{target: '/upload'}" flow-files-submitted="$flow.upload()" flow-file-success="$file.msg = $message">
 
         <input type="file" flow-btn/>
@@ -49,7 +61,6 @@
           </tr>
         </table>
       </div>
-      <!-- Flow.JS End -->
 
     </div>
 
@@ -62,7 +73,12 @@
     <p><button ng-click="buttonAdd();" class="btn btn-default">post</button></p>
   </form> 
 
-	</div>
+	</div> -->
+
+
+    <div id="my_camera"></div>
+    <div id="my_result"></div>
+    <a class="postfood btn btn-default" href="javascript:void(take_snapshot())">Share your food</a>
 
 </div>
 <!-- Content End -->

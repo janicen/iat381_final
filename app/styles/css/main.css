@@ -303,6 +303,20 @@ textarea {
   margin-bottom: 2em;
   color: black; }
 
+#my_camera {
+  width: 360px;
+  height: 270px;
+  border-bottom: 1px solid #F15A24;
+  margin-left: 0px;
+  margin-top: 50px; }
+
+#my_result {
+  position: absolute;
+  top: 50px; }
+
+.postfood {
+  margin-top: 50px; }
+
 /* =========================================================
  * Media Query Styles
  * ========================================================= */
