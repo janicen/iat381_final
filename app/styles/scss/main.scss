@@ -186,6 +186,11 @@
         border: 5px solid #603813;
     }
 
+    .special {
+        @extend a;
+        border: 5px solid #4F4D49;
+    }
+
     .title {
         font-size: 1.2em;
         width: 100%;
@@ -203,6 +208,11 @@
         -webkit-box-orient: vertical;  
         overflow: hidden;
         text-overflow: ellipsis;
+    }
+
+    .title-special {
+        @extend .title;
+        background-color: #4F4D49;
     }
 
     .likes {
