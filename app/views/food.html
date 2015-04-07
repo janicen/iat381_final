@@ -152,19 +152,26 @@
 	// 	console.log(sessvars.myUser[i]);
 	// 	console.log(sessvars.myUserPic[i]);
 	// }
-	var imgSrcString = "url(" + sessvars.myObj[sessvars.evt] + ")";
-	var h2tag = sessvars.myCaption[sessvars.evt].split(" ");
-	    h2tag = h2tag[0] + " " + h2tag[1];
-	var ptag  = sessvars.myCaption[sessvars.evt];
-	// $(".page img").attr('src', imgSrcString);
-	$(".coverflow").css('background-image', imgSrcString);
-	// console.log(h2tag);
-	// console.log(ptag);
-	$( ".page h2" ).replaceWith( "<h2>" + h2tag + "</h2>" );
-	$( ".page p" ).replaceWith( "<p>" + ptag + "</p>" );
-	// console.log(sessvars.evt);
-	var profilePic = sessvars.myUserPic[sessvars.evt];
-	$(".profile-pic img").attr('src', profilePic);
+	if(sessvars.evt <= 33) {
+		var imgSrcString = "url(" + sessvars.myObj[sessvars.evt] + ")";
+		var h2tag = sessvars.myCaption[sessvars.evt].split(" ");
+		    h2tag = h2tag[0] + " " + h2tag[1];
+		var ptag  = sessvars.myCaption[sessvars.evt];
+		// $(".page img").attr('src', imgSrcString);
+		$(".coverflow").css('background-image', imgSrcString);
+		// console.log(h2tag);
+		// console.log(ptag);
+		$( ".page h2" ).replaceWith( "<h2>" + h2tag + "</h2>" );
+		$( ".page p" ).replaceWith( "<p>" + ptag + "</p>" );
+		// console.log(sessvars.evt);
+		var profilePic = sessvars.myUserPic[sessvars.evt];
+		$(".profile-pic img").attr('src', profilePic);
+	} else {
+		$(".coverflow").css('background-image', "url(" + sessvars.img + ")" );
+		$( ".page h2" ).replaceWith( "<h2>" + sessvars.photoCaption + "</h2>" );
+		$( ".page p" ).replaceWith( "<p>" + sessvars.photoCaption + "</p>" );
+		$(".profile-pic img").attr('src', sessvars.myUserPic[0]);
+	}
 </script>
 
 
