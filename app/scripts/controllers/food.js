@@ -18,7 +18,7 @@ angular.module('myappApp')
         $scope.counter = 1;
         $scope.btnAdd = function() {
             if($scope.txtcomment !==''){
-                $scope.comment.push($scope.txtcomment);
+                $scope.comment.unshift($scope.txtcomment);
                 $scope.txtcomment = '';
                 global = $scope.counter++;
             }
