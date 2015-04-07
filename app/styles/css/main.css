@@ -92,6 +92,18 @@ a:hover, #instafeed .further1:hover, #instafeed .further2:hover, #instafeed .fur
 /* ================================================================ 
   FOODS PAGE START 
 ================================================================  */
+#dv1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 360px;
+  padding: 25px;
+  background-color: blue; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
 /*** Image Cover: Start ***/
 .image-slider, .description-slider {
   overflow: hidden;

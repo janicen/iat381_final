@@ -11,15 +11,23 @@ angular.module('myappApp')
   .controller('FoodCtrl', function ($scope) {
     $scope.awesomeThings = [];
 
-    	$scope.buttonAdd = function() {
+    	// $scope.buttonAdd = function() {
+     //        if($scope.txtcomment !==''){
+     //            $scope.comment.push($scope.txtcomment);
+     //            $scope.txtcomment = '';
+     //        }
+     //    };
+
+        $scope.comment = [];
+        $scope.btnAdd = function() {
             if($scope.txtcomment !==''){
                 $scope.comment.push($scope.txtcomment);
                 $scope.txtcomment = '';
             }
         };
 
-        jQuery(function() {
-            jQuery('.slider.touch').pagesSliderTouch();
-            jQuery('.slider').pagesSlider();
-        });
+        // jQuery(function() {
+        //     jQuery('.slider.touch').pagesSliderTouch();
+        //     jQuery('.slider').pagesSlider();
+        // });
     });
