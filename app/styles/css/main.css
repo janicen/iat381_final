@@ -500,6 +500,26 @@ textarea {
   .post-button .btn:hover {
     background-color: #F0825B; }
 
+.plus-button {
+  position: fixed;
+  right: 90px;
+  bottom: 10px;
+  z-index: 1; }
+  .plus-button img {
+    width: 64px;
+    height: auto;
+    padding-top: .3em; }
+  .plus-button .btn {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out; }
+  .plus-button .btn:hover {
+    background-color: #F0825B; }
+
 #instafeed {
   position: relative; }
   #instafeed a, #instafeed .further1, #instafeed .further2, #instafeed .further3, #instafeed .special {

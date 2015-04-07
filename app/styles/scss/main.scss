@@ -152,6 +152,29 @@
     }
 }
 
+.plus-button {
+    position: fixed;
+    right: 90px;
+    bottom: 10px;
+    z-index: 1;
+
+    img {
+        width: 64px;
+        height: auto;
+        padding-top: .3em;
+    }
+
+    .btn {
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+        @include transitionAll(0.25s);
+    }
+    .btn:hover {
+        background-color: #F0825B;
+    }
+}
+
 #instafeed {
     position: relative;
     a {
