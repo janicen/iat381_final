@@ -89,6 +89,10 @@ a:hover, #instafeed .further1:hover, #instafeed .further2:hover, #instafeed .fur
   opacity: 1;
   text-decoration: none; }
 
+a.btn:hover, #instafeed .btn.further1:hover, #instafeed .btn.further2:hover, #instafeed .btn.further3:hover {
+  color: #FFFFFF;
+  background-color: #C1272D; }
+
 /* ================================================================ 
   FOODS PAGE START 
 ================================================================  */
