@@ -126,6 +126,7 @@
 
 	textarea {
 		margin-bottom: 1em;
+		 resize: none;
 	}
 }
 
@@ -138,6 +139,10 @@
 			margin-bottom: 1em;
 			padding: .5em;
 			background-color: #FFFFFF;
+			border-radius: 15px;
+			background-color: #D3EDE0;
+			padding-left: 20px;
+			padding-right: 20px;
 		}        
 	}
 
@@ -146,5 +151,11 @@
 
 		li {
 			margin: 0 .5em;
+			float: left;
 		}
+	}
+	.chat-buttons:after {
+		content: "";
+		display: block;
+		clear: both;
 	}

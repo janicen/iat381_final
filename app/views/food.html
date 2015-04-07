@@ -72,19 +72,20 @@
 	<div class="comments">
 		<form ng-controller="FoodCtrl">
 
-	    <textarea ng-model="txtcomment" placeholder="Comment here"></textarea>
+	    <textarea id="value" ng-model="txtcomment" placeholder="Comment here"></textarea>
 
 	    <div class="chat-buttons">
 			<ul>
 				<li><a class="btn btn-default" ng-href="#">follow</a></li>
 				<li><a class="btn btn-default" ng-href="#">request</a></li>
-				<li><a ng-click="btnAdd();" class="btn btn-default">post</a></li>
+				<li><a onclick="APP.insert();" ng-click="btnAdd();" class="btn btn-default">post</a></li>
+				<li><a id="fetch" onclick="APP.fetch();" class="btn btn-default">refresh</a></li>
 			<ul>
 		</div> 
 		<div class="commentslist">
 			<h4>Comments</h4>
-		    <ul>
-		      <li ng-repeat="comnt in comment"> {{ comnt }} <a href=""></a></li>
+		    <ul id="output">
+		      <li ng-repeat="comnt in comment track by $index"> {{ comnt }} <a href=""></a></li>
 		    </ul>
 		</div>
 	  </form> 
