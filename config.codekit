@@ -3695,15 +3695,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/app\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/app\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/app\/scripts\/app.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -3748,6 +3739,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/app\/scripts\/controllers\/food.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/scripts\/controllers\/food.js",
+		"outputAbbreviatedPath": "\/app\/scripts\/controllers\/min\/food-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/app\/scripts\/controllers\/main.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -3765,6 +3767,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/app\/scripts\/controllers\/min\/chats-min.js",
 		"outputAbbreviatedPath": "\/app\/scripts\/controllers\/min\/min\/chats-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/app\/scripts\/controllers\/min\/food-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/scripts\/controllers\/min\/food-min.js",
+		"outputAbbreviatedPath": "\/app\/scripts\/controllers\/min\/min\/food-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -4086,6 +4099,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/app\/views\/food.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/views\/food.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/app\/views\/main.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -4160,7 +4182,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Janice Ng",
+"lastSavedByUser": "Yee Loong Ooi",
 "manualImportLinks": {
 	},
 "projectAttributes": {
