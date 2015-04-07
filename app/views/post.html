@@ -78,7 +78,21 @@
 
     <div id="my_camera"></div>
     <div id="my_result"></div>
-    <a class="postfood btn btn-default" href="javascript:void(take_snapshot())">Share your food</a>
+    <form>
+        <textarea id="photo-caption" placeholder="Comment here"></textarea>
+    </form> 
+    <a class="postfood btn btn-default" href="javascript:void(take_snapshot())">Take a Snap</a>
+    <a class="postfood btn btn-default" onclick="photo_caption();">Share your food</a>
 
 </div>
 <!-- Content End -->
+
+<!-- Page Specific JS -->
+<script type="text/javascript">
+
+    function photo_caption() {
+        sessvars.photoCaption = $('#photo-caption').val();
+    };
+
+</script>
+
