@@ -94,23 +94,37 @@ angular.module('myappApp')
                 console.log('DB is not ready');
                 return;
             }
-            // document.getElementById("fetch").onclick = "";
-            var fetchActive = true;
-            while(fetchActive === true){
-                // var key = $('#search-key').val();
-                var key = global++;
-                var transaction = APP.db.transaction('data', 'readwrite');
-                var objectStore = transaction.objectStore('data');
-                var request = objectStore.get(key);
-                request.onsuccess = function(e) {
-                    console.log(e);
-                    // $('#output').html(JSON.stringify(e.target.result));
-                    $('#output').prepend("<li>" + e.target.result.value + "</li>");
-                    if (e.target.result.value === " ") {console.log("ysy");}
-                };
-                fetchActive = false;
 
-            }
+            //count length of indexdb database
+            var transaction2 = APP.db.transaction(["data"], "readonly");
+            var objectStore2 = transaction2.objectStore("data"); 
+            var count2 = objectStore2.count();
+            var dbCounter = 0;
+
+            count2.onsuccess = function() {
+                dbCounter = count2.result;
+                console.log(count2.result);
+                
+                //display all comments from the database
+                while(global < dbCounter){
+                    
+                    // var key = $('#search-key').val();
+                    var key = global++;
+                    var transaction = APP.db.transaction('data', 'readwrite');
+                    var objectStore = transaction.objectStore('data');
+                    var request = objectStore.get(key);
+                    request.onsuccess = function(e) {
+                        console.log(e);
+                        // $('#output').html(JSON.stringify(e.target.result));
+                        $('#output').prepend("<li class=\"animated fadeInDown\">" + e.target.result.value + "</li>");
+                    };
+
+                }
+            };
+            
+            //disable refresh button after clicking once
+            document.getElementById("fetch").onclick = "";
+
          },
         remove:function() {
         }
