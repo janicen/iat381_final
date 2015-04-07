@@ -152,7 +152,7 @@
 	// 	console.log(sessvars.myUser[i]);
 	// 	console.log(sessvars.myUserPic[i]);
 	// }
-	if(sessvars.evt <= 33) {
+	if(sessvars.evt >= 0 && sessvars.evt <= 33) {
 		var imgSrcString = "url(" + sessvars.myObj[sessvars.evt] + ")";
 		var h2tag = sessvars.myCaption[sessvars.evt].split(" ");
 		    h2tag = h2tag[0] + " " + h2tag[1];
@@ -170,7 +170,7 @@
 		$(".coverflow").css('background-image', "url(" + sessvars.img + ")" );
 		$( ".page h2" ).replaceWith( "<h2>" + sessvars.photoCaption + "</h2>" );
 		$( ".page p" ).replaceWith( "<p>" + sessvars.photoCaption + "</p>" );
-		$(".profile-pic img").attr('src', sessvars.myUserPic[0]);
+		$(".profile-pic img").attr('src', sessvars.myUserPic[27]);
 	}
 </script>
 
