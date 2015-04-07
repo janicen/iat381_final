@@ -190,13 +190,10 @@ a:hover, #instafeed .further1:hover, #instafeed .further2:hover, #instafeed .fur
 
 .chat-buttons {
   text-align: center; }
-  .chat-buttons li {
-    margin: 0 .5em;
-    float: left; }
   .chat-buttons .btn {
     padding: .5em; }
   .chat-buttons .btn-default {
-    width: 62px; }
+    width: 60px; }
 
 .chat-buttons:after {
   content: "";
