@@ -202,6 +202,7 @@
 				// console.log(caption[0].innerText);
 				// console.log(image.user.username);
 	    	});
+	    	setLink(); //hacky way to reassign the new links to all a tag
 	  	},
 	  	// template: '<a href="{{link}}" target="_blank" data-wow-offset: "10" data-wow-delay="0.5s" ><img src="{{image}}" /><div class="title">{{caption}}</div><div class="likes">&hearts; {{likes}} </div></a>'
 	  	template: '<a onclick="setNum(sessvars.myID[0]);" href="#/food" data-wow-offset: "10" data-wow-delay="0.5s" ><img src="{{image}}" /><div class="title">{{caption}}</div><div class="likes">&hearts; {{likes}} </div></a>'
@@ -211,7 +212,8 @@
 	// feed.options.limit = 5;
 	// console.log(feed.options.after);
 	// console.log(feed);
-	$('#instafeed').on("click",function(){
+	// $('#instafeed').on("click",function(){
+	function setLink() {
 	  	$("#instafeed a:nth-child(1)").attr("onclick","setNum(0)");
 		$("#instafeed a:nth-child(2)").attr("onclick","setNum(1)");
 		$("#instafeed a:nth-child(3)").attr("onclick","setNum(2)");
@@ -246,7 +248,8 @@
 		$("#instafeed a:nth-child(32)").attr("onclick","setNum(31)");
 		$("#instafeed a:nth-child(33)").attr("onclick","setNum(32)");
 		$("#instafeed a:nth-child(34)").attr("onclick","setNum(33)");
-	});
+	// });
+	};
 
 	function setNum(val) {
 		if(val === 0) { sessvars.evt = 0; }

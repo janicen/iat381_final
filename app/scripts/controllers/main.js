@@ -76,7 +76,7 @@ $(document).ready(function() {
 				    		var descChildSelector = childSelector + " div:nth-child(2)";
 				    		$(descChildSelector).css("background","#ED1C24");
 				    	}
-
+				    	setLink(); //hacky way to reassign the new links to all a tag
 				  	};
 			       	feed.run();
 			       	scrollCounter++;
@@ -117,6 +117,7 @@ $(document).ready(function() {
 				    		var descChildSelector = childSelector + " div:nth-child(2)";
 				    		$(descChildSelector).css("background","#C1272D");
 				    	}
+				    	setLink(); //hacky way to reassign the new links to all a tag
 				  	};
 			       	feed.run();
 			       	scrollCounter++;
@@ -157,6 +158,7 @@ $(document).ready(function() {
 				    		var descChildSelector = childSelector + " div:nth-child(2)";
 				    		$(descChildSelector).css("background","#603813");
 				    	}
+				    	setLink(); //hacky way to reassign the new links to all a tag
 				  	};
 			       	feed.run();
 			       	scrollCounter++;
