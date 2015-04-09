@@ -43,46 +43,22 @@
 <!-- Content Start -->
 <div class="content">
 
-<!-- 	<div class="picture">
-
-		<div class="thing">
-
-      <div flow-init="{target: '/upload'}" flow-files-submitted="$flow.upload()" flow-file-success="$file.msg = $message">
-
-        <input type="file" flow-btn/>
-        <img flow-img="$flow.files[0]"/>
-        <span class="btn btn-default" flow-btn>upload</span>
-
-        <table>
-          <tr ng-repeat="file in $flow.files">
-            <td>{{$index+1}}</td>
-            <td>{{file.name}}</td>
-            <td>{{file.msg}}</td>
-          </tr>
-        </table>
-      </div>
-
-    </div>
-
-	</div>
-
-	<div class="comment">
-
-  <form ng-controller="PostCtrl">
-    <textarea ng-model="txtcomment" placeholder="Comment here"></textarea>
-    <p><button ng-click="buttonAdd();" class="btn btn-default">post</button></p>
-  </form> 
-
+	<!-- <div class="comment">
+    <form ng-controller="PostCtrl">
+      <textarea ng-model="txtcomment" placeholder="Comment here"></textarea>
+      <p><button ng-click="buttonAdd();" class="btn btn-default">post</button></p>
+    </form> 
 	</div> -->
-
 
     <div id="my_camera"></div>
     <div id="my_result"></div>
     <form>
         <textarea id="photo-caption" placeholder="Comment here"></textarea>
     </form> 
-    <a class="postfood btn btn-default" href="javascript:void(take_snapshot())">Take a Snap</a>
-    <a class="postfood btn btn-default" onclick="photo_caption();">Share your food</a>
+    <div class="buttonswrapper">
+      <a class="postfood btn btn-default" href="javascript:void(take_snapshot())">snap</a>
+      <a class="postfood btn btn-default" onclick="photo_caption();">share</a>
+    </div>
 
 </div>
 <!-- Content End -->

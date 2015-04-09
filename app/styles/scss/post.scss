@@ -38,7 +38,7 @@
 #my_camera {
 	width:360px;
 	height:270px;
-	border-bottom: 1px solid #F15A24;
+	border-bottom: 3px solid #D1D3D4;
 	margin-left: 0px;
 	margin-top: 50px;
 }
@@ -50,4 +50,10 @@
 
 .postfood {
 	margin-top: 10px;
+}
+
+.buttonswrapper {
+	a {
+		margin: 0 .5em;
+	}
 }

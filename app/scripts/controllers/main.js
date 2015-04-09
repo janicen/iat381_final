@@ -9,11 +9,7 @@
  */
 angular.module('myappApp')
   .controller('MainCtrl', function ($scope, $window, $log) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+    $scope.awesomeThings = [];
 
   });
 
