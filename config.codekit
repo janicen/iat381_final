@@ -3585,6 +3585,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/app\/img\/icon_camera.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3369,
+		"inputAbbreviatedPath": "\/app\/img\/icon_camera.png",
+		"outputAbbreviatedPath": "\/app\/img\/icon_camera.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/app\/img\/icon_dishes.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3603,6 +3614,17 @@
 		"initialSize": 929,
 		"inputAbbreviatedPath": "\/app\/img\/icon_notifications.png",
 		"outputAbbreviatedPath": "\/app\/img\/icon_notifications.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/icon_plus.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 781,
+		"inputAbbreviatedPath": "\/app\/img\/icon_plus.png",
+		"outputAbbreviatedPath": "\/app\/img\/icon_plus.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3768,7 +3790,18 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
+		},
+	"\/app\/scripts\/controllers\/min\/bookmarks-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/scripts\/controllers\/min\/bookmarks-min.js",
+		"outputAbbreviatedPath": "\/app\/scripts\/controllers\/min\/min\/bookmarks-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/app\/scripts\/controllers\/min\/chats-min.js": {
 		"fileType": 64,
@@ -3966,6 +3999,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/app\/styles\/css\/main.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/styles\/css\/main.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/app\/styles\/css\/master.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -4043,15 +4085,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/app\/styles\/scss\/main.scss": {
+	"\/app\/styles\/scss\/master.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/app\/styles\/scss\/main.scss",
-		"outputAbbreviatedPath": "\/app\/styles\/css\/main.css",
+		"inputAbbreviatedPath": "\/app\/styles\/scss\/master.scss",
+		"outputAbbreviatedPath": "\/app\/styles\/css\/master.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
