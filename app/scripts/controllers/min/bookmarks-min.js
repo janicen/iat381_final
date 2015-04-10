@@ -1,0 +1,1 @@
+"use strict";angular.module("myappApp").controller("BookmarksCtrl",function(o){o.awesomeThings=[]});

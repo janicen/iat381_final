@@ -4,25 +4,20 @@
 
 /*** Image Cover: Start ***/
 
-.image-slider, .description-slider {
+.image-slider {
 	overflow: hidden;
 	width: 100%;
 	height: 300px;
 	border-bottom: 2px solid #D1D3D4;
+}
 
-	img {
-		width: auto;
-		height: 300px;
+	.coverflow {
+	    width: 360px;
+	    height: 300px;  
+	    background-repeat: no-repeat;
+	    background-position: center center;
+	    background-size: cover;
 	}
-}
-
-.coverflow {
-    width: 360px;
-    height: 300px;  
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
 
 /*** Profile Content: Start ***/
 
@@ -35,20 +30,6 @@
 	border-radius: 50%;
 	overflow: hidden;
 }
-
-.content-nav {
-	overflow: hidden;
-}
-
-// .buttons {
-// 	float: right;
-// 	margin: .5em 1em 0 1em;
-// 	padding: 1em 0;
-
-// 	li {
-// 		margin: 0 .8em;
-// 	}
-// }
 
 /*** Instafeed Post: Start ***/
 
@@ -77,37 +58,37 @@
 
 /*** Messages : Start ***/
 
-.message-box {
-	width: 100%;
-	margin-bottom: 4em;
-	padding: 0 2em;
-}
+// .message-box {
+// 	width: 100%;
+// 	margin-bottom: 4em;
+// 	padding: 0 2em;
+// }
 
-.chat {
-	vertical-align: middle;
-	overflow: hidden;
-	text-align: left;
-	margin-bottom: 2em;
+// .chat {
+// 	vertical-align: middle;
+// 	overflow: hidden;
+// 	text-align: left;
+// 	margin-bottom: 2em;
 
-	.contacts-pic {
-		float: left;
+// 	.contacts-pic {
+// 		float: left;
 
-		img {
-			width: 32px;
-			height: auto;
-			border: 2px solid #D1D3D4;
-		}
-	}
+// 		img {
+// 			width: 32px;
+// 			height: auto;
+// 			border: 2px solid #D1D3D4;
+// 		}
+// 	}
 
-	p {
-		padding-bottom: 1em;
-	}
-}
+// 	p {
+// 		padding-bottom: 1em;
+// 	}
+// }
 
-	.chatmessages {
-		display: inline-block;
-		margin-left: 2em;
-	}
+// 	.chatmessages {
+// 		display: inline-block;
+// 		margin-left: 2em;
+// 	}
 
 /*** Comments : Start ***/
 
@@ -116,7 +97,6 @@
 	display: inline-block;
 	padding: 2em 3em;
 	background-color: #D1D3D4;
-	// border-top: 2px solid #D1D3D4;
 	color: #000000;
 	text-align: left;
 
@@ -126,7 +106,8 @@
 
 	textarea {
 		margin-bottom: 1em;
-		 resize: none;
+		resize: none;
+		margin-top: 1em;
 	}
 }
 
@@ -139,8 +120,6 @@
 			margin-bottom: 1em;
 			padding: .5em;
 			background-color: #FFFFFF;
-			// border-radius: 15px;
-			// background-color: #D3EDE0;
 			padding-left: 20px;
 			padding-right: 20px;
 		}        
