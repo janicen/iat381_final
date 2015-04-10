@@ -18,20 +18,6 @@ angular.module('myappApp')
   });
 
 $(document).ready(function() { 
-
-	// $("#instafeed").click(function() {
-	//   	// $("#instafeed a:nth-child(1)").attr("href", "#/food");
-	// 	$("#instafeed a:nth-child(1)").attr("onclick","setNum(0)");
-	// 	$("#instafeed a:nth-child(2)").attr("onclick","setNum(1)");
-	// 	$("#instafeed a:nth-child(3)").attr("onclick","setNum(2)");
-	// 	$("#instafeed a:nth-child(4)").attr("onclick","setNum(3)");
-	// 	$("#instafeed a:nth-child(5)").attr("onclick","setNum(4)");
-	// 	$("#instafeed a:nth-child(6)").attr("onclick","setNum(5)");
-	// 	$("#instafeed a:nth-child(7)").attr("onclick","setNum(6)");
-	// 	$("#instafeed a:nth-child(8)").attr("onclick","setNum(7)");
-	// 	$("#instafeed a:nth-child(9)").attr("onclick","setNum(8)");
-	// 	$("#instafeed a:nth-child(10)").attr("onclick","setNum(9)");
-	// });
  	
 	var scrollCounter = 0;
 
