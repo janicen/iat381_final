@@ -197,6 +197,12 @@
 		if(val === -1) { sessvars.evt = -1; }
 	}
 	$('#post_feed').on("click",function(){
-		$("#instafeed").prepend('<a class="special" onclick="setNum(-1);" href="#/food" data-wow-offset: "10" data-wow-delay="0.5s" ><img src="'+ sessvars.img +'" /><div class="title-special">'+ sessvars.photoCaption +'</div><div class="likes">&hearts; 0 </div></a>');
+		//allow sharing only if there is an image being taken
+		if(sessvars.img !== null || sessvars.photoCaption !== null){
+			$("#instafeed").prepend('<a class="special" onclick="setNum(-1);" href="#/food" data-wow-offset: "10" data-wow-delay="0.5s" ><img src="'+ sessvars.img +'" /><div class="title-special">'+ sessvars.photoCaption +'</div><div class="likes">&hearts; 0 </div></a>');
+			//reset camera
+			sessvars.img = null;
+			sessvars.photoCaption = null;
+		}
 	});
 </script>
