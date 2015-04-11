@@ -28,14 +28,14 @@
     z-index: 1;
 
     img {
-        width: 44px;
+        width: 64px;
         height: auto;
         padding-top: .3em;
     }
 
     .btn {
-        width: 44px;
-        height: 44px;
+        width: 64px;
+        height: 64px;
         border-radius: 50%;
         @include transitionAll(0.25s);
     }
@@ -46,19 +46,19 @@
 
 .plus-button {
     position: fixed;
-    right: 65px;
+    right: 90px;
     bottom: 10px;
     z-index: 1;
 
     img {
-        width: 44px;
+        width: 64px;
         height: auto;
         padding-top: .3em;
     }
 
     .btn {
-        width: 44px;
-        height: 44px;
+        width: 64px;
+        height: 64px;
         border-radius: 50%;
         @include transitionAll(0.25s);
     }
