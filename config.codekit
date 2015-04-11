@@ -3706,39 +3706,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/app\/img\/profile1.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 10152,
-		"inputAbbreviatedPath": "\/app\/img\/profile1.png",
-		"outputAbbreviatedPath": "\/app\/img\/profile1.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/app\/img\/profile2.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 8912,
-		"inputAbbreviatedPath": "\/app\/img\/profile2.png",
-		"outputAbbreviatedPath": "\/app\/img\/profile2.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/app\/img\/profile3.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 7664,
-		"inputAbbreviatedPath": "\/app\/img\/profile3.png",
-		"outputAbbreviatedPath": "\/app\/img\/profile3.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/app\/img\/tradearrows.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4220,15 +4187,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/app\/views\/bookmarks.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/app\/views\/bookmarks.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/app\/views\/chats.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -4321,7 +4279,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Janice Ng",
+"lastSavedByUser": "Yee Loong Ooi",
 "manualImportLinks": {
 	},
 "projectAttributes": {
