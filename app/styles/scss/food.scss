@@ -27,7 +27,7 @@
 	top: 308px;
 	z-index: 1;
 	border: 2px solid #D1D3D4;
-	border-radius: 50%;
+	border-radius: 100%;
 	overflow: hidden;
 }
 
@@ -55,40 +55,6 @@
 		text-wrap:normal;
 	}
 }
-
-/*** Messages : Start ***/
-
-// .message-box {
-// 	width: 100%;
-// 	margin-bottom: 4em;
-// 	padding: 0 2em;
-// }
-
-// .chat {
-// 	vertical-align: middle;
-// 	overflow: hidden;
-// 	text-align: left;
-// 	margin-bottom: 2em;
-
-// 	.contacts-pic {
-// 		float: left;
-
-// 		img {
-// 			width: 32px;
-// 			height: auto;
-// 			border: 2px solid #D1D3D4;
-// 		}
-// 	}
-
-// 	p {
-// 		padding-bottom: 1em;
-// 	}
-// }
-
-// 	.chatmessages {
-// 		display: inline-block;
-// 		margin-left: 2em;
-// 	}
 
 /*** Comments : Start ***/
 
@@ -142,6 +108,8 @@
 		display: block;
 		clear: both;
 	}
+
+	/* Speech bubble styling */
 
 	.bubbles {
 		position: relative;

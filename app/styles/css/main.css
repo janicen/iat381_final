@@ -119,7 +119,7 @@ a.btn:hover, #instafeed .btn.further1:hover, #instafeed .btn.further2:hover, #in
   top: 308px;
   z-index: 1;
   border: 2px solid #D1D3D4;
-  border-radius: 50%;
+  border-radius: 100%;
   overflow: hidden; }
 
 /*** Instafeed Post: Start ***/
@@ -139,7 +139,6 @@ a.btn:hover, #instafeed .btn.further1:hover, #instafeed .btn.further2:hover, #in
     padding: 1em 1em 0em 1em;
     text-wrap: normal; }
 
-/*** Messages : Start ***/
 /*** Comments : Start ***/
 .comments {
   overflow: hidden;
@@ -178,6 +177,7 @@ a.btn:hover, #instafeed .btn.further1:hover, #instafeed .btn.further2:hover, #in
   display: block;
   clear: both; }
 
+/* Speech bubble styling */
 .bubbles {
   position: relative;
   width: 300px;
@@ -247,14 +247,17 @@ a.btn:hover, #instafeed .btn.further1:hover, #instafeed .btn.further2:hover, #in
   vertical-align: middle;
   overflow: hidden;
   text-align: left;
-  margin: 3em;
+  margin: 5.2em 3em 3em 3em;
   border-bottom: 1px solid #D1D3D4; }
 
 .contacts-pic {
   display: inline-block;
   vertical-align: middle;
-  margin-bottom: 2em;
-  border: 2px solid #D1D3D4; }
+  margin-bottom: 1.5em;
+  border: 2px solid #D1D3D4;
+  border-radius: 100%; }
+  .contacts-pic img {
+    border-radius: 100%; }
 
 .messages {
   display: inline-block;
@@ -265,15 +268,16 @@ a.btn:hover, #instafeed .btn.further1:hover, #instafeed .btn.further2:hover, #in
   BOOKMARKS PAGE START 
 ================================================================  */
 .chefs {
-  padding-top: 1.5em; }
-  .chefs li {
-    padding: 0 1em; }
-    .chefs li p {
-      font-weight: bold;
-      padding: 0 1.5em;
-      color: #F15A24; }
+  padding-top: 2em; }
+  .chefs table {
+    width: 100%; }
+  .chefs p {
+    font-weight: bold;
+    padding: .5em;
+    color: #F15A24; }
   .chefs img {
-    border: 2px solid #D1D3D4; }
+    border: 2px solid #D1D3D4;
+    border-radius: 100%; }
 
 /* ================================================================ 
   POST PAGE START 
@@ -284,14 +288,6 @@ a.btn:hover, #instafeed .btn.further1:hover, #instafeed .btn.further2:hover, #in
   width: 100%;
   height: 300px;
   border-bottom: 3px solid #D1D3D4; }
-
-.thing {
-  display: inline-block;
-  margin-top: 5em; }
-
-.thing input {
-  display: inline;
-  padding: none; }
 
 .comment {
   text-align: center;
@@ -366,7 +362,6 @@ textarea {
   top: 5px;
   left: calc(50% - 180px); }
 
-/* HEXAGON STARTS HERE */
 .post-button {
   position: fixed;
   right: 10px;
@@ -389,7 +384,7 @@ textarea {
 
 .plus-button {
   position: fixed;
-  right: 60px;
+  right: 65px;
   bottom: 10px;
   z-index: 1; }
   .plus-button img {

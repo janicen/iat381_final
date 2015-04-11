@@ -3,19 +3,20 @@
 ================================================================  */
 
 .chefs {
-	padding-top: 1.5em;
+	padding-top: 2em;
 
-	li {
-		padding: 0 1em;
+	table {
+		width: 100%;
+	}
 
-		p {
-			font-weight: bold;
-			padding: 0 1.5em;
-			color: #F15A24;
-		}
+	p {
+		font-weight: bold;
+		padding: .5em;
+		color: #F15A24;
 	}
 
 	img {
 		border: 2px solid #D1D3D4;
+		border-radius: 100%;
 	}
 }
