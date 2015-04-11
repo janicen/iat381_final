@@ -3607,6 +3607,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/app\/img\/icon_home.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1185,
+		"inputAbbreviatedPath": "\/app\/img\/icon_home.png",
+		"outputAbbreviatedPath": "\/app\/img\/icon_home.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/app\/img\/icon_notifications.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3691,6 +3702,39 @@
 		"initialSize": 2516,
 		"inputAbbreviatedPath": "\/app\/img\/logo.png",
 		"outputAbbreviatedPath": "\/app\/img\/logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/profile1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10152,
+		"inputAbbreviatedPath": "\/app\/img\/profile1.png",
+		"outputAbbreviatedPath": "\/app\/img\/profile1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/profile2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8912,
+		"inputAbbreviatedPath": "\/app\/img\/profile2.png",
+		"outputAbbreviatedPath": "\/app\/img\/profile2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/img\/profile3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7664,
+		"inputAbbreviatedPath": "\/app\/img\/profile3.png",
+		"outputAbbreviatedPath": "\/app\/img\/profile3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3831,6 +3875,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/app\/scripts\/controllers\/min\/main-min.js",
 		"outputAbbreviatedPath": "\/app\/scripts\/controllers\/min\/min\/main-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/app\/scripts\/controllers\/min\/notifications-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/scripts\/controllers\/min\/notifications-min.js",
+		"outputAbbreviatedPath": "\/app\/scripts\/controllers\/min\/min\/notifications-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -4085,6 +4140,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/app\/styles\/scss\/main.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/styles\/scss\/main.scss",
+		"outputAbbreviatedPath": "\/app\/styles\/css\/main.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/app\/styles\/scss\/master.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -4250,7 +4321,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Yee Loong Ooi",
+"lastSavedByUser": "Janice Ng",
 "manualImportLinks": {
 	},
 "projectAttributes": {
